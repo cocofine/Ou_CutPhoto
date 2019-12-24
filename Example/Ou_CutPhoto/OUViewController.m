@@ -7,6 +7,7 @@
 //
 
 #import "OUViewController.h"
+#import "TOCropViewController.h"
 
 @interface OUViewController ()
 
@@ -19,6 +20,17 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    UIImage *pic = [UIImage imageNamed:@"splash.jpg"];
+    UIImage *img = [UIImage imageWithData:UIImageJPEGRepresentation(pic,1)];
+
+    TOCropViewController *vc = [[TOCropViewController alloc] initWithCroppingStyle:TOCropViewCroppingStyleDefault image:img];
+    vc.delegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

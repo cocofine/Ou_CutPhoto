@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		742E3BB923B0C16600DF18AF /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 742E3BB823B0C16600DF18AF /* splash.jpg */; };
 		798D91CF91E18FA64D2FD568 /* Pods_Ou_CutPhoto_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8E7281B196B8EEAFE72E2 /* Pods_Ou_CutPhoto_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C2F6FF0527FEDDB8C9F0092 /* Pods_Ou_CutPhoto_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EF76D43415E27B972A1261 /* Pods_Ou_CutPhoto_Tests.framework */; };
@@ -39,8 +40,8 @@
 /* Begin PBXFileReference section */
 		19EF76D43415E27B972A1261 /* Pods_Ou_CutPhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ou_CutPhoto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E8E7281B196B8EEAFE72E2 /* Pods_Ou_CutPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ou_CutPhoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1D6C02601DEC028511AE58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4A39BAF5788DBCEB75AF5556 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D1D6C02601DEC028511AE58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A39BAF5788DBCEB75AF5556 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5FAAE5BADF99CC1A694AFD90 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ou_CutPhoto_Example.debug.xcconfig"; path = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Ou_CutPhoto_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ou_CutPhoto_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +63,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		742E3BB823B0C16600DF18AF /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		742E3C6C23B0C7AA00DF18AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AD76D215A856452AC289796 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ou_CutPhoto_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3E612B1D5BD71610ECE71E /* Pods-Ou_CutPhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ou_CutPhoto_Tests.release.xcconfig"; path = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DDB6628DB15D7B0FEC440CCF /* Pods-Ou_CutPhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ou_CutPhoto_Example.release.xcconfig"; path = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DE488B351C1AB48D589D803D /* Ou_CutPhoto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Ou_CutPhoto.podspec; path = ../Ou_CutPhoto.podspec; sourceTree = "<group>"; };
+		DE488B351C1AB48D589D803D /* Ou_CutPhoto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Ou_CutPhoto.podspec; path = ../Ou_CutPhoto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				8AD76D215A856452AC289796 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */,
 				9C3E612B1D5BD71610ECE71E /* Pods-Ou_CutPhoto_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +115,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for Ou_CutPhoto */,
 				6003F5B5195388D20070C39A /* Tests */,
+				742E3C6B23B0C7AA00DF18AF /* Ou_CutPics */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				159CB93CCF2E9B9B017C1626 /* Pods */,
@@ -149,6 +152,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* OUViewController.h */,
 				6003F5A6195388D20070C39A /* OUViewController.m */,
+				742E3BB823B0C16600DF18AF /* splash.jpg */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -197,6 +201,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		742E3C6B23B0C7AA00DF18AF /* Ou_CutPics */ = {
+			isa = PBXGroup;
+			children = (
+				742E3C6C23B0C7AA00DF18AF /* Info.plist */,
+			);
+			path = Ou_CutPics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,7 +239,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				8396B1540729A86ABDF7378D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1096438749@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WKR87TTKML;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				742E3BB923B0C16600DF18AF /* splash.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -338,24 +354,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8396B1540729A86ABDF7378D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		928213E3BB326209BA1EB677 /* [CP] Embed Pods Frameworks */ = {
@@ -451,6 +449,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
@@ -491,6 +490,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -513,6 +513,7 @@
 			baseConfigurationReference = 5FAAE5BADF99CC1A694AFD90 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKR87TTKML;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ou_CutPhoto/Ou_CutPhoto-Prefix.pch";
 				INFOPLIST_FILE = "Ou_CutPhoto/Ou_CutPhoto-Info.plist";
@@ -529,6 +530,7 @@
 			baseConfigurationReference = DDB6628DB15D7B0FEC440CCF /* Pods-Ou_CutPhoto_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKR87TTKML;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ou_CutPhoto/Ou_CutPhoto-Prefix.pch";
 				INFOPLIST_FILE = "Ou_CutPhoto/Ou_CutPhoto-Info.plist";

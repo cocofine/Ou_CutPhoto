@@ -1035,21 +1035,14 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 120.0f;
 
 -(RatioBarView *)barView
 {
-//        NSBundle *bundle = [NSBundle bundleForClass:[RatioBarView class]];
-//        NSString *path = [bundle pathForResource:@"Photos" ofType:@"bundle"];
-//        NSBundle *b = [NSBundle bundleWithPath:path];
-////        NSString *name = [NSString stringWithFormat:@""];
-//        NSString *p = [b pathForResource:@"Img/ziyou@2x" ofType:@"png"];
-////        cell.imgView.image = [UIImage imageWithContentsOfFile:p];
-    
-    
+
     if (!_barView) {
         __weak typeof(self) weakSelf = self;
         NSBundle *bundle = [NSBundle bundleForClass:[RatioBarView class]];
-        NSString *path = [bundle pathForResource:@"Photos" ofType:@"bundle"];
+        NSString *path = [bundle pathForResource:@"Ou_CutPics" ofType:@"bundle"];
         NSBundle *b = [NSBundle bundleWithPath:path];
 //        [UINib nibWithNibName:@"RatioCell" bundle:b]
-        _barView = [[b loadNibNamed:@"RatioBarView" owner:self options:nil] firstObject];;
+        _barView = [[[NSBundle mainBundle] loadNibNamed:@"RatioBarView" owner:self options:nil] firstObject];;
         _barView.layer.zPosition = 1000;
         _barView.typeBlock = ^(NSInteger RatioType) {
             [weakSelf barRatioActionWithType:RatioType];

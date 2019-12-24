@@ -53,7 +53,7 @@
     [self restoreAction:nil];
     
     NSBundle *bundle = [NSBundle bundleForClass:[RatioCell class]];
-    NSString *path = [bundle pathForResource:@"Photos" ofType:@"bundle"];
+    NSString *path = [bundle pathForResource:@"Ou_CutPics" ofType:@"bundle"];
     NSBundle *b = [NSBundle bundleWithPath:path];
 
 
@@ -84,7 +84,7 @@
 - (UIImage *)imageWithModel:(RatioImgModel *)model
 {
     NSBundle *bundle = [NSBundle bundleForClass:[RatioBarView class]];
-    NSString *path = [bundle pathForResource:@"Photos" ofType:@"bundle"];
+    NSString *path = [bundle pathForResource:@"Ou_CutPics" ofType:@"bundle"];
     NSBundle *b = [NSBundle bundleWithPath:path];
     NSString *name;
     if ([UIScreen mainScreen].bounds.size.height / [UIScreen mainScreen].bounds.size.width > 2.0) {

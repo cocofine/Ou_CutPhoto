@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03250E5B50EC23C975A0E98B8F31B382 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74158152B26F70707F475C1FC1B045 /* TOCropScrollView.m */; };
+		03865E4E8C97E12D6CD3A0184783795E /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A36DD703B0C4DDD4CB9B974BBC92AD /* TOCropToolbar.m */; };
+		0C295A0065E61A35C6C14F2022B76FDD /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AF408030BF5009DFDBC49F815B8FDE /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19854F72E0BE2FEDBEB6333E1F0034A1 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = DAACEA180610A173DFBC1B59C168110C /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19EC0C6FFE6CD207A73BA4E97BF68EC7 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D71BF1D0450639A70777D150667E335F /* TOCropView.m */; };
+		1ABC38D60563E014ECB63E8C8B1F0DBB /* RatioCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EABC7AB835FA447B04D19234BC33D1F /* RatioCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DF70B394666B67ED421B5BBE138C7B /* RatioBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4024E8A86E66E06B536781CF1315FD75 /* RatioBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423B7B0DEC2C4FCB33956E1029A7AC40 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = F0372C457347DE39199FE533AD42DE41 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6B2EF4AAB926946B2269FF0B9AD35F /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE7585212D1C0C1F75B4AB923BD0CDF /* UIImage+CropRotate.m */; };
+		5386E740968E5749F58F0A043BB26F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		574E0E8E40FCDB292B937A16E0FDF41A /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A7B5E847AC731DB882BE440938BF5B /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596609104E1C83CC0E39AF713FD6663B /* Pods-Ou_CutPhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2BFE67E437CDA152067CFF308AA233 /* Pods-Ou_CutPhoto_Tests-dummy.m */; };
+		65D0950FAF43A0A2FA501DCB6FE7C6FC /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B423673A95C43C275E8FCCB1B259CB2F /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668EEBC6C75DFE00D7B4F81D9EF25F5D /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0A1CB4BC01B020D4EED03E5E1C668D /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76313818D8C6644B14BD0B5ED44C0CCE /* Pods-Ou_CutPhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0880819AEA4A59702AAC402B792E216F /* Pods-Ou_CutPhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D22457EC1A77BE4AA32B98125E88C87 /* Pods-Ou_CutPhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE46E474040D5D741973E614F27A0F2A /* Pods-Ou_CutPhoto_Example-dummy.m */; };
+		81731A0EAFD6749C74E121B5F4CEBD08 /* Ou_CutPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE314BD345A2CD00840461FCBC186 /* Ou_CutPhoto-dummy.m */; };
+		83E2A5991AA5C23E5A699617F3536881 /* RatioImgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBECF2E7D64EAA90A44DA7CC76A2E0C /* RatioImgModel.m */; };
+		8862B044457A415DA1CF93EC2675A253 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA51CC9456E372A83579A126C7DEA1B /* TOCropViewController.m */; };
+		8E8A7EAF8ABED588ABD076AB891F93A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9158849386E953B59CBEC939213E1E68 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8386087D51FAEEF953850CEC1FDBD6F8 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9727B3D5873ED24080FFFF6D2705D647 /* RatioBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CAA150A7AAB87D426A23FDDB745814 /* RatioBarView.m */; };
+		97CD56FD5F317DCD4DAE33CE7F74959C /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 839DE9BAFF081A76FC1C8A56E7782FFF /* TOCropViewControllerTransitioning.m */; };
+		98567EC2B8F7BDDF5B1257C0E2E3E786 /* Ou_CutPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A704FA9D4BE6F5D060B11FBBD13000C /* Ou_CutPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72EBD4D337B2D58D173B571BC7704D0 /* Ou_CutPics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF10EE74F3944BA2758FED8DFCB54018 /* Ou_CutPics.bundle */; };
+		B822BF565836D914072211AFCFDFAC28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA3D9B76AAA0F727FAF87DA00C5BED6E /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDF14A1C6FA95DE0850312A58013ACE /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB044509ABF0DE2E9D5F02F70381E792 /* Pods-Ou_CutPhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98670B908F43DB189EAD29156941B8 /* Pods-Ou_CutPhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC591E10D8975011B151841D672A9283 /* RatioImgModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C02140AA2DB8C45E0B228173609E4DEB /* RatioImgModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CC178ADF8E89023EF7419599FD413C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 320ABEBEC8A5F11E31511B2F99BD7F59 /* TOCroppedImageAttributes.m */; };
+		C966630D4316422C75DC951E7207E8D6 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CEF29262CD10F813416C511D4103E5 /* TOActivityCroppedImageProvider.m */; };
+		CCD63000C377A9E3ACD372208143D478 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4501E252CCE7D94660A0DF7BF3407C13 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7157FD1F089B8148181D991E12AD11F /* RatioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D699F689C7151C5C11CA0DC7D32796 /* RatioCell.m */; };
+		E94BB283B3A74EEC82DEA7A1D395BC4B /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7449666CD38BD5C335DBA01486D116E2 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A19CCF11D1F0F375EBA76BAE6AA6BF /* Ou_CutPics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */; };
+		F397B271EEFCA545257FBA7D5CA42B67 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B424DF9BE658229E4B34506E9A68278 /* TOCropOverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076DACFA11E128307AC7DEF974DBC26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91ED9715D2BA8D4FAE40B529C4036F6;
+			remoteInfo = "Ou_CutPhoto-Ou_CutPics";
+		};
+		101F82A8FD24650A5B5173439E394865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B996B0611DA542592C2DB6695E30BC6;
+			remoteInfo = Ou_CutPhoto;
+		};
+		411D7DD23F044AA4511708A0E541E54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37638CCEA423DF7EAF490FDD4A5A7C5A;
+			remoteInfo = "Pods-Ou_CutPhoto_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0880819AEA4A59702AAC402B792E216F /* Pods-Ou_CutPhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ou_CutPhoto_Example-umbrella.h"; sourceTree = "<group>"; };
+		0B424DF9BE658229E4B34506E9A68278 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		0C74158152B26F70707F475C1FC1B045 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		11CEF29262CD10F813416C511D4103E5 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		1DA51CC9456E372A83579A126C7DEA1B /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = Ou_CutPhoto/Classes/TOCropViewController.m; sourceTree = "<group>"; };
+		21C9840539C2B33B940F6E38A3D55341 /* Ou_CutPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-prefix.pch"; sourceTree = "<group>"; };
+		2293371F3A2C17F8DCA4759475BF2249 /* Ou_CutPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ou_CutPhoto.framework; path = Ou_CutPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A36DD703B0C4DDD4CB9B974BBC92AD /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		2ADBA2EB76E986D21C8E67FF13B90526 /* Pods-Ou_CutPhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ou_CutPhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3144D12D05DDB756BC1FBB581F6B3646 /* Pods-Ou_CutPhoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ou_CutPhoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		320ABEBEC8A5F11E31511B2F99BD7F59 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		381A71D59EC7685287BC23383E036FE9 /* Pods-Ou_CutPhoto_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Example-Info.plist"; sourceTree = "<group>"; };
+		38FFC5BFE7A98D03DBD57BAC2B8DBB43 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
+		3AF824E52EAEE47237ADE56A8565615A /* Ou_CutPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Ou_CutPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D1CE6484D59F787D921088AF3E65767 /* Pods-Ou_CutPhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4024E8A86E66E06B536781CF1315FD75 /* RatioBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioBarView.h; sourceTree = "<group>"; };
+		4501E252CCE7D94660A0DF7BF3407C13 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		48AF408030BF5009DFDBC49F815B8FDE /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		4A704FA9D4BE6F5D060B11FBBD13000C /* Ou_CutPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-umbrella.h"; sourceTree = "<group>"; };
+		4F80799D1016E4A3584AEDB74E89BDE3 /* Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
+		51CAA150A7AAB87D426A23FDDB745814 /* RatioBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioBarView.m; sourceTree = "<group>"; };
+		571178E6E9B9616D94648D9D08DFC482 /* Pods-Ou_CutPhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ou_CutPhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59A7B5E847AC731DB882BE440938BF5B /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		5BDF14A1C6FA95DE0850312A58013ACE /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		5EABC7AB835FA447B04D19234BC33D1F /* RatioCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioCell.h; sourceTree = "<group>"; };
+		5EE9E723FDAEDE2D3DEF74701A83FEB9 /* Pods-Ou_CutPhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ou_CutPhoto_Tests.modulemap"; sourceTree = "<group>"; };
+		6BEBFFAC372C96C03E1DF720C9B05CD8 /* Pods-Ou_CutPhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ou_CutPhoto_Example.modulemap"; sourceTree = "<group>"; };
+		6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Ou_CutPics.bundle; path = "Ou_CutPhoto-Ou_CutPics.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE5F9C19F9EB25DCC8ABA46F666D1F4 /* Ou_CutPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ou_CutPhoto.modulemap; sourceTree = "<group>"; };
+		6EC86B009346A4008C2109631AB67B89 /* Pods-Ou_CutPhoto_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Tests-Info.plist"; sourceTree = "<group>"; };
+		7449666CD38BD5C335DBA01486D116E2 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		7593E519B58F07AFEDBF35611B647CEE /* Pods_Ou_CutPhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ou_CutPhoto_Tests.framework; path = "Pods-Ou_CutPhoto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8386087D51FAEEF953850CEC1FDBD6F8 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		839DE9BAFF081A76FC1C8A56E7782FFF /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		8EBECF2E7D64EAA90A44DA7CC76A2E0C /* RatioImgModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioImgModel.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E98670B908F43DB189EAD29156941B8 /* Pods-Ou_CutPhoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ou_CutPhoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2CA2425C8822E5CBEF53B5468398951 /* Pods_Ou_CutPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ou_CutPhoto_Example.framework; path = "Pods-Ou_CutPhoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE46E474040D5D741973E614F27A0F2A /* Pods-Ou_CutPhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ou_CutPhoto_Example-dummy.m"; sourceTree = "<group>"; };
+		B423673A95C43C275E8FCCB1B259CB2F /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
+		B45516A15466411A5158A475DB95E618 /* Pods-Ou_CutPhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6EA22D44EB1643D4139742463B19431 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C02140AA2DB8C45E0B228173609E4DEB /* RatioImgModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioImgModel.h; sourceTree = "<group>"; };
+		C6BFF902A7EFE9B7AA2EB3D9628E17BE /* Pods-Ou_CutPhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C9356916071C8826388F2501416751C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CAABB29FE59A49BBD06D085EC2C59F95 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD35ABF6AB07E26A88031C0FCADF2193 /* Pods-Ou_CutPhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF10EE74F3944BA2758FED8DFCB54018 /* Ou_CutPics.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Ou_CutPics.bundle; path = Ou_CutPhoto/Assets/Ou_CutPics.bundle; sourceTree = "<group>"; };
+		D71BF1D0450639A70777D150667E335F /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		DA2AE314BD345A2CD00840461FCBC186 /* Ou_CutPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ou_CutPhoto-dummy.m"; sourceTree = "<group>"; };
+		DAACEA180610A173DFBC1B59C168110C /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		E6DD417BE9862CFE9D4993F4A82DFE98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB0A1CB4BC01B020D4EED03E5E1C668D /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = Ou_CutPhoto/Classes/TOCropViewController.h; sourceTree = "<group>"; };
+		F0372C457347DE39199FE533AD42DE41 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ou_CutPhoto.xcconfig; sourceTree = "<group>"; };
+		F8D699F689C7151C5C11CA0DC7D32796 /* RatioCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioCell.m; sourceTree = "<group>"; };
+		FE2BFE67E437CDA152067CFF308AA233 /* Pods-Ou_CutPhoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ou_CutPhoto_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEE7585212D1C0C1F75B4AB923BD0CDF /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A6456AB3747BD7BEA9658A190DF31D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBFAD322D54320241B50B5B08D4E38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5386E740968E5749F58F0A043BB26F95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7069F39DF3B446A59039593D9099A2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B822BF565836D914072211AFCFDFAC28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8241916FEAF24D38A4165A02E70FCF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8A7EAF8ABED588ABD076AB891F93A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07779550E7F9E465DA86EEB0A3199B42 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F0372C457347DE39199FE533AD42DE41 /* UIImage+CropRotate.h */,
+				FEE7585212D1C0C1F75B4AB923BD0CDF /* UIImage+CropRotate.m */,
+			);
+			name = Categories;
+			path = Ou_CutPhoto/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		2BC716575189D9D0750EDEB047D419AF /* Ou_CutPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EB0A1CB4BC01B020D4EED03E5E1C668D /* TOCropViewController.h */,
+				1DA51CC9456E372A83579A126C7DEA1B /* TOCropViewController.m */,
+				07779550E7F9E465DA86EEB0A3199B42 /* Categories */,
+				8C5EFBB0E05AE6B961B3201E79E5C14D /* Constants */,
+				FB8AEF77BBDA1C2924E4AE08C4FEE0B4 /* Models */,
+				77AC6DB6961DE43F5AE9529B7A608E6A /* Pod */,
+				BD3C78E8F268CE06697C1956D87DFF88 /* Resources */,
+				7E170CB1BFBE7B8FBC8294E15EA2F7B5 /* Support Files */,
+				56475EDE448FEADB6ACB16B83636A2C1 /* Views */,
+			);
+			name = Ou_CutPhoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3D0C12AEA8BDD999F6FA0081501448F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC716575189D9D0750EDEB047D419AF /* Ou_CutPhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		550D81AF2C5F721D503285E27E5EC54A /* Pods-Ou_CutPhoto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBFFAC372C96C03E1DF720C9B05CD8 /* Pods-Ou_CutPhoto_Example.modulemap */,
+				2ADBA2EB76E986D21C8E67FF13B90526 /* Pods-Ou_CutPhoto_Example-acknowledgements.markdown */,
+				CD35ABF6AB07E26A88031C0FCADF2193 /* Pods-Ou_CutPhoto_Example-acknowledgements.plist */,
+				AE46E474040D5D741973E614F27A0F2A /* Pods-Ou_CutPhoto_Example-dummy.m */,
+				571178E6E9B9616D94648D9D08DFC482 /* Pods-Ou_CutPhoto_Example-frameworks.sh */,
+				381A71D59EC7685287BC23383E036FE9 /* Pods-Ou_CutPhoto_Example-Info.plist */,
+				0880819AEA4A59702AAC402B792E216F /* Pods-Ou_CutPhoto_Example-umbrella.h */,
+				CAABB29FE59A49BBD06D085EC2C59F95 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */,
+				C6BFF902A7EFE9B7AA2EB3D9628E17BE /* Pods-Ou_CutPhoto_Example.release.xcconfig */,
+			);
+			name = "Pods-Ou_CutPhoto_Example";
+			path = "Target Support Files/Pods-Ou_CutPhoto_Example";
+			sourceTree = "<group>";
+		};
+		56475EDE448FEADB6ACB16B83636A2C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4024E8A86E66E06B536781CF1315FD75 /* RatioBarView.h */,
+				51CAA150A7AAB87D426A23FDDB745814 /* RatioBarView.m */,
+				5EABC7AB835FA447B04D19234BC33D1F /* RatioCell.h */,
+				F8D699F689C7151C5C11CA0DC7D32796 /* RatioCell.m */,
+				4501E252CCE7D94660A0DF7BF3407C13 /* TOCropOverlayView.h */,
+				0B424DF9BE658229E4B34506E9A68278 /* TOCropOverlayView.m */,
+				59A7B5E847AC731DB882BE440938BF5B /* TOCropScrollView.h */,
+				0C74158152B26F70707F475C1FC1B045 /* TOCropScrollView.m */,
+				48AF408030BF5009DFDBC49F815B8FDE /* TOCropToolbar.h */,
+				25A36DD703B0C4DDD4CB9B974BBC92AD /* TOCropToolbar.m */,
+				8386087D51FAEEF953850CEC1FDBD6F8 /* TOCropView.h */,
+				D71BF1D0450639A70777D150667E335F /* TOCropView.m */,
+			);
+			name = Views;
+			path = Ou_CutPhoto/Classes/Views;
+			sourceTree = "<group>";
+		};
+		6F1D35B9F233DE0FE45EDE09FEC60C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2293371F3A2C17F8DCA4759475BF2249 /* Ou_CutPhoto.framework */,
+				6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */,
+				A2CA2425C8822E5CBEF53B5468398951 /* Pods_Ou_CutPhoto_Example.framework */,
+				7593E519B58F07AFEDBF35611B647CEE /* Pods_Ou_CutPhoto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77AC6DB6961DE43F5AE9529B7A608E6A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9356916071C8826388F2501416751C7 /* LICENSE */,
+				3AF824E52EAEE47237ADE56A8565615A /* Ou_CutPhoto.podspec */,
+				E6DD417BE9862CFE9D4993F4A82DFE98 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7E170CB1BFBE7B8FBC8294E15EA2F7B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE5F9C19F9EB25DCC8ABA46F666D1F4 /* Ou_CutPhoto.modulemap */,
+				F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */,
+				DA2AE314BD345A2CD00840461FCBC186 /* Ou_CutPhoto-dummy.m */,
+				4F80799D1016E4A3584AEDB74E89BDE3 /* Ou_CutPhoto-Info.plist */,
+				21C9840539C2B33B940F6E38A3D55341 /* Ou_CutPhoto-prefix.pch */,
+				4A704FA9D4BE6F5D060B11FBBD13000C /* Ou_CutPhoto-umbrella.h */,
+				38FFC5BFE7A98D03DBD57BAC2B8DBB43 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Ou_CutPhoto";
+			sourceTree = "<group>";
+		};
+		8C5EFBB0E05AE6B961B3201E79E5C14D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B423673A95C43C275E8FCCB1B259CB2F /* TOCropViewConstants.h */,
+			);
+			name = Constants;
+			path = Ou_CutPhoto/Classes/Constants;
+			sourceTree = "<group>";
+		};
+		BD3C78E8F268CE06697C1956D87DFF88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EE74F3944BA2758FED8DFCB54018 /* Ou_CutPics.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D0C12AEA8BDD999F6FA0081501448F6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6F1D35B9F233DE0FE45EDE09FEC60C8F /* Products */,
+				F7C63BF156BECE2D635421694671195B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1440B4752CE416948BAB0FEE5950959 /* Pods-Ou_CutPhoto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE9E723FDAEDE2D3DEF74701A83FEB9 /* Pods-Ou_CutPhoto_Tests.modulemap */,
+				3144D12D05DDB756BC1FBB581F6B3646 /* Pods-Ou_CutPhoto_Tests-acknowledgements.markdown */,
+				3D1CE6484D59F787D921088AF3E65767 /* Pods-Ou_CutPhoto_Tests-acknowledgements.plist */,
+				FE2BFE67E437CDA152067CFF308AA233 /* Pods-Ou_CutPhoto_Tests-dummy.m */,
+				6EC86B009346A4008C2109631AB67B89 /* Pods-Ou_CutPhoto_Tests-Info.plist */,
+				9E98670B908F43DB189EAD29156941B8 /* Pods-Ou_CutPhoto_Tests-umbrella.h */,
+				B6EA22D44EB1643D4139742463B19431 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */,
+				B45516A15466411A5158A475DB95E618 /* Pods-Ou_CutPhoto_Tests.release.xcconfig */,
+			);
+			name = "Pods-Ou_CutPhoto_Tests";
+			path = "Target Support Files/Pods-Ou_CutPhoto_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C63BF156BECE2D635421694671195B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				550D81AF2C5F721D503285E27E5EC54A /* Pods-Ou_CutPhoto_Example */,
+				D1440B4752CE416948BAB0FEE5950959 /* Pods-Ou_CutPhoto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB8AEF77BBDA1C2924E4AE08C4FEE0B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C02140AA2DB8C45E0B228173609E4DEB /* RatioImgModel.h */,
+				8EBECF2E7D64EAA90A44DA7CC76A2E0C /* RatioImgModel.m */,
+				DAACEA180610A173DFBC1B59C168110C /* TOActivityCroppedImageProvider.h */,
+				11CEF29262CD10F813416C511D4103E5 /* TOActivityCroppedImageProvider.m */,
+				5BDF14A1C6FA95DE0850312A58013ACE /* TOCroppedImageAttributes.h */,
+				320ABEBEC8A5F11E31511B2F99BD7F59 /* TOCroppedImageAttributes.m */,
+				7449666CD38BD5C335DBA01486D116E2 /* TOCropViewControllerTransitioning.h */,
+				839DE9BAFF081A76FC1C8A56E7782FFF /* TOCropViewControllerTransitioning.m */,
+			);
+			name = Models;
+			path = Ou_CutPhoto/Classes/Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		144E0887B663B0C77F115573AAB01E9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB044509ABF0DE2E9D5F02F70381E792 /* Pods-Ou_CutPhoto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF3CB10305FA0599BB42657F64800A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76313818D8C6644B14BD0B5ED44C0CCE /* Pods-Ou_CutPhoto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FF90452C7023F4252459932DB0B321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98567EC2B8F7BDDF5B1257C0E2E3E786 /* Ou_CutPhoto-umbrella.h in Headers */,
+				24DF70B394666B67ED421B5BBE138C7B /* RatioBarView.h in Headers */,
+				1ABC38D60563E014ECB63E8C8B1F0DBB /* RatioCell.h in Headers */,
+				BC591E10D8975011B151841D672A9283 /* RatioImgModel.h in Headers */,
+				19854F72E0BE2FEDBEB6333E1F0034A1 /* TOActivityCroppedImageProvider.h in Headers */,
+				CCD63000C377A9E3ACD372208143D478 /* TOCropOverlayView.h in Headers */,
+				BA3D9B76AAA0F727FAF87DA00C5BED6E /* TOCroppedImageAttributes.h in Headers */,
+				574E0E8E40FCDB292B937A16E0FDF41A /* TOCropScrollView.h in Headers */,
+				0C295A0065E61A35C6C14F2022B76FDD /* TOCropToolbar.h in Headers */,
+				9158849386E953B59CBEC939213E1E68 /* TOCropView.h in Headers */,
+				65D0950FAF43A0A2FA501DCB6FE7C6FC /* TOCropViewConstants.h in Headers */,
+				668EEBC6C75DFE00D7B4F81D9EF25F5D /* TOCropViewController.h in Headers */,
+				E94BB283B3A74EEC82DEA7A1D395BC4B /* TOCropViewControllerTransitioning.h in Headers */,
+				423B7B0DEC2C4FCB33956E1029A7AC40 /* UIImage+CropRotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B996B0611DA542592C2DB6695E30BC6 /* Ou_CutPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BD3196E7B30006B976D2146E1B4EC3 /* Build configuration list for PBXNativeTarget "Ou_CutPhoto" */;
+			buildPhases = (
+				A5FF90452C7023F4252459932DB0B321 /* Headers */,
+				08448E8196CE90DF8E03E44F9CE4F8BC /* Sources */,
+				5FBFAD322D54320241B50B5B08D4E38D /* Frameworks */,
+				0A2B4EA3DBB61864A21EFEB59D23CF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29115DDC0947DE65D377552CF645066E /* PBXTargetDependency */,
+			);
+			name = Ou_CutPhoto;
+			productName = Ou_CutPhoto;
+			productReference = 2293371F3A2C17F8DCA4759475BF2249 /* Ou_CutPhoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37638CCEA423DF7EAF490FDD4A5A7C5A /* Pods-Ou_CutPhoto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3388F3FC96797251BC0ECD326032B9CD /* Build configuration list for PBXNativeTarget "Pods-Ou_CutPhoto_Example" */;
+			buildPhases = (
+				30CF3CB10305FA0599BB42657F64800A /* Headers */,
+				4CF9AD3C4DCCED44116D6A825792054F /* Sources */,
+				8241916FEAF24D38A4165A02E70FCF76 /* Frameworks */,
+				43B679CE61FF0F1F33FD7C0A0D430D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5137F8AA310AFD3C6BA4633069EE04E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ou_CutPhoto_Example";
+			productName = "Pods-Ou_CutPhoto_Example";
+			productReference = A2CA2425C8822E5CBEF53B5468398951 /* Pods_Ou_CutPhoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C91ED9715D2BA8D4FAE40B529C4036F6 /* Ou_CutPhoto-Ou_CutPics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B3B283932540F288F7BED3D1564AF2 /* Build configuration list for PBXNativeTarget "Ou_CutPhoto-Ou_CutPics" */;
+			buildPhases = (
+				D5087F1E9947BC33CC602E89A15D8898 /* Sources */,
+				2A6456AB3747BD7BEA9658A190DF31D8 /* Frameworks */,
+				4F1D0F1B262FDBC686CBEC55E694096E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ou_CutPhoto-Ou_CutPics";
+			productName = "Ou_CutPhoto-Ou_CutPics";
+			productReference = 6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DE8655B23AA5328A6B9F8B3D16663763 /* Pods-Ou_CutPhoto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3347D0CFA8FDD163961C3581F03B333 /* Build configuration list for PBXNativeTarget "Pods-Ou_CutPhoto_Tests" */;
+			buildPhases = (
+				144E0887B663B0C77F115573AAB01E9B /* Headers */,
+				91A5FB5F187A1F3D34BFFC41F985FBE8 /* Sources */,
+				7069F39DF3B446A59039593D9099A2D7 /* Frameworks */,
+				F9CF079342271AEA591E12BFAD6CD5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092286886133DE88E1B8130DF73902B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ou_CutPhoto_Tests";
+			productName = "Pods-Ou_CutPhoto_Tests";
+			productReference = 7593E519B58F07AFEDBF35611B647CEE /* Pods_Ou_CutPhoto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6F1D35B9F233DE0FE45EDE09FEC60C8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B996B0611DA542592C2DB6695E30BC6 /* Ou_CutPhoto */,
+				C91ED9715D2BA8D4FAE40B529C4036F6 /* Ou_CutPhoto-Ou_CutPics */,
+				37638CCEA423DF7EAF490FDD4A5A7C5A /* Pods-Ou_CutPhoto_Example */,
+				DE8655B23AA5328A6B9F8B3D16663763 /* Pods-Ou_CutPhoto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2B4EA3DBB61864A21EFEB59D23CF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A19CCF11D1F0F375EBA76BAE6AA6BF /* Ou_CutPics.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B679CE61FF0F1F33FD7C0A0D430D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D0F1B262FDBC686CBEC55E694096E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72EBD4D337B2D58D173B571BC7704D0 /* Ou_CutPics.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CF079342271AEA591E12BFAD6CD5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08448E8196CE90DF8E03E44F9CE4F8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81731A0EAFD6749C74E121B5F4CEBD08 /* Ou_CutPhoto-dummy.m in Sources */,
+				9727B3D5873ED24080FFFF6D2705D647 /* RatioBarView.m in Sources */,
+				E7157FD1F089B8148181D991E12AD11F /* RatioCell.m in Sources */,
+				83E2A5991AA5C23E5A699617F3536881 /* RatioImgModel.m in Sources */,
+				C966630D4316422C75DC951E7207E8D6 /* TOActivityCroppedImageProvider.m in Sources */,
+				F397B271EEFCA545257FBA7D5CA42B67 /* TOCropOverlayView.m in Sources */,
+				C4CC178ADF8E89023EF7419599FD413C /* TOCroppedImageAttributes.m in Sources */,
+				03250E5B50EC23C975A0E98B8F31B382 /* TOCropScrollView.m in Sources */,
+				03865E4E8C97E12D6CD3A0184783795E /* TOCropToolbar.m in Sources */,
+				19EC0C6FFE6CD207A73BA4E97BF68EC7 /* TOCropView.m in Sources */,
+				8862B044457A415DA1CF93EC2675A253 /* TOCropViewController.m in Sources */,
+				97CD56FD5F317DCD4DAE33CE7F74959C /* TOCropViewControllerTransitioning.m in Sources */,
+				4A6B2EF4AAB926946B2269FF0B9AD35F /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9AD3C4DCCED44116D6A825792054F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D22457EC1A77BE4AA32B98125E88C87 /* Pods-Ou_CutPhoto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A5FB5F187A1F3D34BFFC41F985FBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596609104E1C83CC0E39AF713FD6663B /* Pods-Ou_CutPhoto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5087F1E9947BC33CC602E89A15D8898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092286886133DE88E1B8130DF73902B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ou_CutPhoto_Example";
+			target = 37638CCEA423DF7EAF490FDD4A5A7C5A /* Pods-Ou_CutPhoto_Example */;
+			targetProxy = 411D7DD23F044AA4511708A0E541E54F /* PBXContainerItemProxy */;
+		};
+		29115DDC0947DE65D377552CF645066E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ou_CutPhoto-Ou_CutPics";
+			target = C91ED9715D2BA8D4FAE40B529C4036F6 /* Ou_CutPhoto-Ou_CutPics */;
+			targetProxy = 076DACFA11E128307AC7DEF974DBC26E /* PBXContainerItemProxy */;
+		};
+		5137F8AA310AFD3C6BA4633069EE04E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ou_CutPhoto;
+			target = 1B996B0611DA542592C2DB6695E30BC6 /* Ou_CutPhoto */;
+			targetProxy = 101F82A8FD24650A5B5173439E394865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C2E4AF96F299310447142F0E078AB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EA22D44EB1643D4139742463B19431 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2529702D97215B83FD0C2DA34C6C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAABB29FE59A49BBD06D085EC2C59F95 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C2615974ACD9B7BEAD32602EAAF79B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BFF902A7EFE9B7AA2EB3D9628E17BE /* Pods-Ou_CutPhoto_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ou_CutPhoto_Example/Pods-Ou_CutPhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92EE85D47243C50FD94A9871AEC2DB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto.modulemap";
+				PRODUCT_MODULE_NAME = Ou_CutPhoto;
+				PRODUCT_NAME = Ou_CutPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5DF1C7FDF7ECDA039F5C9799742B580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ou_CutPhoto";
+				IBSC_MODULE = Ou_CutPhoto;
+				INFOPLIST_FILE = "Target Support Files/Ou_CutPhoto/ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Ou_CutPics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A9F8E95C31B5079B03D986EC49AB1D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45516A15466411A5158A475DB95E618 /* Pods-Ou_CutPhoto_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ou_CutPhoto_Tests/Pods-Ou_CutPhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDB23FDAEA9F04E54EA0A0E8F384D9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ou_CutPhoto/Ou_CutPhoto.modulemap";
+				PRODUCT_MODULE_NAME = Ou_CutPhoto;
+				PRODUCT_NAME = Ou_CutPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF07313FBFB0592531C3C9673A68E483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7246619EE65838B94CC5674248FA209 /* Ou_CutPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ou_CutPhoto";
+				IBSC_MODULE = Ou_CutPhoto;
+				INFOPLIST_FILE = "Target Support Files/Ou_CutPhoto/ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Ou_CutPics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BD3196E7B30006B976D2146E1B4EC3 /* Build configuration list for PBXNativeTarget "Ou_CutPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EE85D47243C50FD94A9871AEC2DB96 /* Debug */,
+				EDB23FDAEA9F04E54EA0A0E8F384D9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3388F3FC96797251BC0ECD326032B9CD /* Build configuration list for PBXNativeTarget "Pods-Ou_CutPhoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2529702D97215B83FD0C2DA34C6C28 /* Debug */,
+				7C2615974ACD9B7BEAD32602EAAF79B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3347D0CFA8FDD163961C3581F03B333 /* Build configuration list for PBXNativeTarget "Pods-Ou_CutPhoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2E4AF96F299310447142F0E078AB9B /* Debug */,
+				A9F8E95C31B5079B03D986EC49AB1D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B3B283932540F288F7BED3D1564AF2 /* Build configuration list for PBXNativeTarget "Ou_CutPhoto-Ou_CutPics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DF1C7FDF7ECDA039F5C9799742B580 /* Debug */,
+				FF07313FBFB0592531C3C9673A68E483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

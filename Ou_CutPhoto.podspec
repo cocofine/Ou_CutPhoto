@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Add long description of the pod here.'
 
   s.homepage         = 'https://github.com/1096438749@qq.com/Ou_CutPhoto'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Ou_CutPhoto/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Ou_CutPhoto' => ['Ou_CutPhoto/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Ou_CutPics' => ['Ou_CutPhoto/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
