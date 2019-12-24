@@ -7,72 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03250E5B50EC23C975A0E98B8F31B382 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A7E3A1BDE1ADD4F33F0FC857C40C50 /* TOCropScrollView.m */; };
-		03865E4E8C97E12D6CD3A0184783795E /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB875E54C8ABFEC25C8D454D7B9FA0 /* TOCropToolbar.m */; };
-		08926F8BD29F511FC9BC942F4EA11ABD /* Ratio_1_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF42C8BF21F885023071A381453D6C4A /* Ratio_1_1@3x.png */; };
-		0C295A0065E61A35C6C14F2022B76FDD /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2538F8915EBEDD8B4500B33DDCBF7F98 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19854F72E0BE2FEDBEB6333E1F0034A1 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3960459653E062D8CD16B0327CF799 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19CF8CC5CA0B32A8DE6C51481F80E730 /* Ratio_4_3_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB1CF5BAC245C3A42B5005108D43193 /* Ratio_4_3_blue@3x.png */; };
-		19EC0C6FFE6CD207A73BA4E97BF68EC7 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C72F672B994753E49D5A1F0B0B82B859 /* TOCropView.m */; };
-		1ABC38D60563E014ECB63E8C8B1F0DBB /* RatioCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D205C225932E6AD10CA66927875D88F /* RatioCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6D4DCD3D8E00FF90697C2139EAB585 /* ziyou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C09797ADF170867CD86309187836B80B /* ziyou@2x.png */; };
-		24DF70B394666B67ED421B5BBE138C7B /* RatioBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAB389D1DBCD6C69D3D126CED1EF71B /* RatioBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		330B62FCE9634E74925987FD7C1896B0 /* xuanzhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00536F90C47EF1D34FF0A62C1D40D3CB /* xuanzhuan@2x.png */; };
-		3320952DA5C025F2A4CF29F4165E2219 /* ziyou_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 972C2D7CB01029818E987696055EA63B /* ziyou_blue@2x.png */; };
-		3367438DE74484A7B872EFA0B314AC5F /* Ratio_3_4_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F3C2BB5EF0529BBAAB7A5466C2013B /* Ratio_3_4_blue@3x.png */; };
-		34A2112A6FC18F52DA74C9654B011550 /* ziyou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A412A776A73414B63BF337420BF32D /* ziyou@3x.png */; };
-		423B7B0DEC2C4FCB33956E1029A7AC40 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D216607C0E5550C485EE46F87614C64 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A6B2EF4AAB926946B2269FF0B9AD35F /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 608B9A5D4C4F0D9E4AD0AF60CBD24C9D /* UIImage+CropRotate.m */; };
-		4E0AE5216AAA63FB5BD2EFC6B935A2E5 /* Ratio_9_16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533D8D87F416910DA5DDACB6ADB6EDA /* Ratio_9_16@3x.png */; };
-		50012016D02AE17DB8F314695224EB90 /* Ratio_4_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FAE745835439C82DC30653CE96E723 /* Ratio_4_3@2x.png */; };
+		007335D231EA7AC6225B0CE2A80CE4BA /* Ratio_3_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF97903B0EBCB44AC9D974CF33A431E5 /* Ratio_3_4@2x.png */; };
+		01587B25F5F7EFFB2083BCFC4470B23B /* ziyou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E040C6AD6E947F661B655A67F2B633C /* ziyou@2x.png */; };
+		03250E5B50EC23C975A0E98B8F31B382 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F0B4F9394BA61E7A1CA557BB305C3 /* TOCropScrollView.m */; };
+		03865E4E8C97E12D6CD3A0184783795E /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E86A3627EBBFB1504908AEF9D98C60 /* TOCropToolbar.m */; };
+		0697584BFED1D404A30688D2DE34F354 /* Ratio_4_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E30D9D5C75B0775260192FF984078A8F /* Ratio_4_3@2x.png */; };
+		0C295A0065E61A35C6C14F2022B76FDD /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBCD85A364EBC10D5BACFD47C8AD89C /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1564C51E68052B5B965B632A2FA24CC4 /* Ratio_3_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E387C7CB7332BF4717FADE4D8424F /* Ratio_3_4@3x.png */; };
+		19854F72E0BE2FEDBEB6333E1F0034A1 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 20748A1A45A06DAB104696866C063E68 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19CFD443C5F340EE825D4AB754026EC5 /* Ratio_9_16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906B763D0BCB6A709738726112FA8772 /* Ratio_9_16@3x.png */; };
+		19EC0C6FFE6CD207A73BA4E97BF68EC7 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D6B5C4CBA6C62329C23EC7A7CD251 /* TOCropView.m */; };
+		1ABC38D60563E014ECB63E8C8B1F0DBB /* RatioCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DAE0F9F0FDE44E4C0C4A246665721F /* RatioCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2034ABAF3B1B62B8A56C0EA215D0FE70 /* Ratio_16_9_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC84E15BC0D886F77753AABE2B07E2F1 /* Ratio_16_9_blue@3x.png */; };
+		24DF70B394666B67ED421B5BBE138C7B /* RatioBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA687C3A7AD7CAC11D5E773C3CAED82C /* RatioBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F171743DFD1DABA6D7BF21F91C3822 /* Ratio_3_4_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDABD09A443010DDD5FF7012875FDAC /* Ratio_3_4_blue@3x.png */; };
+		423B7B0DEC2C4FCB33956E1029A7AC40 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAE6A00B38073B219E2F4336E50163C /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A980FEEADBF07F18DC4BDCB48783E0 /* Ratio_4_3_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9878BFE729BF57E5E0B6C86C3610BE4 /* Ratio_4_3_blue@2x.png */; };
+		4A6B2EF4AAB926946B2269FF0B9AD35F /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DA4BEEBEEC80ADC64CE9A0E9ADBBE /* UIImage+CropRotate.m */; };
+		4EA080A655467DA13DA277BA96EFF65E /* Ratio_16_9_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C9A97097011A0E1F97D1746134A0455 /* Ratio_16_9_blue@2x.png */; };
 		5386E740968E5749F58F0A043BB26F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		55766E14B0CB4645846D85B5F4EC8780 /* Ratio_3_4_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58717923AF205A7DC76AD794D996E9D9 /* Ratio_3_4_blue@2x.png */; };
-		574E0E8E40FCDB292B937A16E0FDF41A /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B77D8BB34233EDAA2E5F0F92037A5F69 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		590035EEEA7F636E27E0292A330BBC12 /* Ratio_16_9_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4182BF8A01B5D5D8A637ED1CEE5CC4A8 /* Ratio_16_9_blue@3x.png */; };
+		574E0E8E40FCDB292B937A16E0FDF41A /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA85D0616F7EA13CBEB27243C444C5A /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5934E9B8BC9C81597A8C8D6D75434DB4 /* Ratio_4_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E12875DC7B3E9DD5DE06AE1D9CC4F28 /* Ratio_4_3@3x.png */; };
 		596609104E1C83CC0E39AF713FD6663B /* Pods-Ou_CutPhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2BFE67E437CDA152067CFF308AA233 /* Pods-Ou_CutPhoto_Tests-dummy.m */; };
-		5D2246B79946033A7A97F55FA3960ED5 /* huanyuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D022164D84D08EC820854B210C6443 /* huanyuan@2x.png */; };
-		65D0950FAF43A0A2FA501DCB6FE7C6FC /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3597AC663032B8BF2B1B7F84DD735F04 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		666722D184C2A2E37DCE1426B415312E /* Ratio_16_9_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8077DC0BECCB52739DB47E5DB2A294 /* Ratio_16_9_blue@2x.png */; };
-		668EEBC6C75DFE00D7B4F81D9EF25F5D /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6441EC9A751AD47130D70264F31B811C /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68AA91FDEF281CE9A75B7C50B210BC9F /* Ratio_1_1_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B315EA3F96ED0CEED5A70305CB2834D /* Ratio_1_1_blue@3x.png */; };
-		68CD36286850E5E517919E6DB8AC7BF1 /* RatioCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = C06D29198E1B01CA0767A7E6DAF745B9 /* RatioCell.nib */; };
+		610E4A096E60298E3FDB5F1FEC021FEA /* Ratio_1_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC743671D60EDC31B9FC4487AF922D1 /* Ratio_1_1@3x.png */; };
+		65D0950FAF43A0A2FA501DCB6FE7C6FC /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A4FCF7ED09BF3B725C5E0E5E476A28 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668EEBC6C75DFE00D7B4F81D9EF25F5D /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9FCA3CAE93B175A7AD914633F84918 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B8100FECF3496193A4BD3AF6E44323 /* xuanzhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D583B80A65FEEF18CE5B115F7433A19 /* xuanzhuan@2x.png */; };
+		673541F3C91091D2814B2891A2F87E0A /* huanyuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5366CABEAB0F7E22EF6B56CFB4F02A9F /* huanyuan@3x.png */; };
+		6BC4061221F81474A0056C0897B67373 /* RatioBarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = B35034A49E3BC535DD665336CED2EE0D /* RatioBarView.nib */; };
+		6CD686A4BC63461B8054A6116CF51899 /* RatioCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22961784C6FF1EB7B21BC7BA24C029CF /* RatioCell.nib */; };
 		76313818D8C6644B14BD0B5ED44C0CCE /* Pods-Ou_CutPhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0880819AEA4A59702AAC402B792E216F /* Pods-Ou_CutPhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763A084D5755302195F1631FF2E4050A /* ziyou_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688EF44A9790082D3FBFD0AB9C861333 /* ziyou_blue@2x.png */; };
+		7A7E2B3F16CA6DF4D920F847EE10C888 /* xuanzhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3497D16C933E554B0D085F4826B8137 /* xuanzhuan@3x.png */; };
 		7D22457EC1A77BE4AA32B98125E88C87 /* Pods-Ou_CutPhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE46E474040D5D741973E614F27A0F2A /* Pods-Ou_CutPhoto_Example-dummy.m */; };
-		809D16320653DF46630E0A36DAD98C31 /* Ratio_9_16_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F340542941F7387309B3F1A4001F9BA /* Ratio_9_16_blue@3x.png */; };
-		81731A0EAFD6749C74E121B5F4CEBD08 /* Ou_CutPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F003E080A207EE16CEFF81E104D9DB /* Ou_CutPhoto-dummy.m */; };
-		83E2A5991AA5C23E5A699617F3536881 /* RatioImgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCED2F2CE178982EDBA5FACE3DC55D /* RatioImgModel.m */; };
-		8539EAA5D6243EE031EE9491A3AC8129 /* Ratio_16_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 705769308BB67DE341990960EEB97C7F /* Ratio_16_9@3x.png */; };
-		87249A8993F906BB511BF7B7FB6C8D3D /* Ratio_9_16_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C091DB5CE28764D108A447043AF02ED /* Ratio_9_16_blue@2x.png */; };
-		8862B044457A415DA1CF93EC2675A253 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A75C6DFC74F1EB84794695DC6DB220 /* TOCropViewController.m */; };
-		8D10C466A4F748948A07993F2262AB2F /* Ou_CutPics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDBA87FE3A197CE2425380BD9E9329D2 /* Ou_CutPics.bundle */; };
+		7DA1D955D3CD3794F4C0362CE9D72F44 /* Ratio_1_1_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B13EF60C9F3C67817FB423CA77E86F /* Ratio_1_1_blue@2x.png */; };
+		81731A0EAFD6749C74E121B5F4CEBD08 /* Ou_CutPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8401ACADD7D1159238B48FFF33D16 /* Ou_CutPhoto-dummy.m */; };
+		83E2A5991AA5C23E5A699617F3536881 /* RatioImgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA23C69F7FDE5366F497E9DCB507196 /* RatioImgModel.m */; };
+		84BD5D54577B8BFF07A04D397BA7A4DA /* Ratio_9_16_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B1BFA5C7DBFFCFC32D35AA7DDC71D /* Ratio_9_16_blue@3x.png */; };
+		8709E6C13F18975C4DEE5BA983EE488D /* Ratio_9_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2610C016DE4D779A76ACBCD6AFAFA9DF /* Ratio_9_16@2x.png */; };
+		8862B044457A415DA1CF93EC2675A253 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2AA2617065DC17829DE0931BC5A064 /* TOCropViewController.m */; };
+		8D92FFD097BB01765C2061BCC817497B /* huanyuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019AAE54BF437A4902F0A2320B37EEE /* huanyuan@2x.png */; };
 		8E8A7EAF8ABED588ABD076AB891F93A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9158849386E953B59CBEC939213E1E68 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4D3A4BAA05D5778FF036A078C03672 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9727B3D5873ED24080FFFF6D2705D647 /* RatioBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56F5E5538FE74FCA1909E6EF7482ED6 /* RatioBarView.m */; };
-		97CD56FD5F317DCD4DAE33CE7F74959C /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C224F6EA222612495B1E5B4A016B0 /* TOCropViewControllerTransitioning.m */; };
-		98567EC2B8F7BDDF5B1257C0E2E3E786 /* Ou_CutPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2756CF9A7B38DA09DB5D51DA61D5FD4A /* Ou_CutPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A107E6B396B848B7537F85BD9B20A901 /* Ratio_4_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A13E4791154EEE443AB41DA5FB2F571 /* Ratio_4_3@3x.png */; };
-		AB07F40019F1487E7218DF37BA7D6DDE /* Ratio_3_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63837281D4086EAFEA2F8F112296555E /* Ratio_3_4@3x.png */; };
-		AC7A91BADF137C847AEF946CE4D3801B /* Ratio_3_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6129F64A6EE053D22ADFB8C4224F3C90 /* Ratio_3_4@2x.png */; };
+		9158849386E953B59CBEC939213E1E68 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = A954A80C4FDBCF52F83451966055FEB6 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E9902F657732083E7C4186BD400A87 /* Ratio_9_16_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAA9FDBF488B105375E2B33405036C3 /* Ratio_9_16_blue@2x.png */; };
+		9727B3D5873ED24080FFFF6D2705D647 /* RatioBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546FF82CB92312485149416A6AC8F0D9 /* RatioBarView.m */; };
+		97CD56FD5F317DCD4DAE33CE7F74959C /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2344F660C70FC6ABAEC670CA7C032C /* TOCropViewControllerTransitioning.m */; };
+		98567EC2B8F7BDDF5B1257C0E2E3E786 /* Ou_CutPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D5E398BB41D32C7DA56058F34A3E5A /* Ou_CutPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA82EAA62E94004179063389C8F1208 /* Ratio_16_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B29859F7AA3AF182A210131C66EB4591 /* Ratio_16_9@2x.png */; };
+		A000560366A16095E9075599E805C961 /* Ratio_4_3_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6482F5A190525535C9C8D59B12B8D /* Ratio_4_3_blue@3x.png */; };
+		AD399248F64D278286597C80B5B4C06A /* ziyou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA71B759A477883103B185D3662B6EAC /* ziyou@3x.png */; };
+		AD97136C3E80D9E97447238CA57FDCDB /* Ratio_3_4_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5EEEBD3348EF6322FF7B331AF95FDE /* Ratio_3_4_blue@2x.png */; };
 		B822BF565836D914072211AFCFDFAC28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BA3D9B76AAA0F727FAF87DA00C5BED6E /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C31672C52CC9463C3196443AE87B231 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9630AFF30FA5CF62BB79C1845FF0D45 /* Ratio_1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDA765431BC8026FF2DF8067C28F0C2 /* Ratio_1_1@2x.png */; };
+		BA3D9B76AAA0F727FAF87DA00C5BED6E /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 595429A124E75A37C1FE1792A2C46CFA /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB044509ABF0DE2E9D5F02F70381E792 /* Pods-Ou_CutPhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98670B908F43DB189EAD29156941B8 /* Pods-Ou_CutPhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB889103D040B22B12F952A1E57B46EB /* huanyuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E1ABDC26361E9874DFBF3FE14A1972 /* huanyuan@3x.png */; };
-		BC591E10D8975011B151841D672A9283 /* RatioImgModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EE90D8011DF67EAE880F53DCA8D43F89 /* RatioImgModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD1C82F91F00A63B308BCD7983344F72 /* Ratio_9_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C4814AD329284AD6AED1D9E5D0B842 /* Ratio_9_16@2x.png */; };
-		C4CC178ADF8E89023EF7419599FD413C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E1085C8D745362115AD5415C357B074F /* TOCroppedImageAttributes.m */; };
-		C966630D4316422C75DC951E7207E8D6 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F9BB4A1CAD69D146A32EB6A4CBAC2 /* TOActivityCroppedImageProvider.m */; };
-		CCD63000C377A9E3ACD372208143D478 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44854589DBA63E1104762EDA1F98B618 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE6A1AF474B421E482D900E843CA1116 /* RatioBarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = B988913A42A0926CBA6D44B572F08982 /* RatioBarView.nib */; };
-		D2E63A2977B6E69F3E806B7A413E211E /* ziyou_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BA32BDAD7BBA955DB65C81D4E59B77 /* ziyou_blue@3x.png */; };
-		E4FFB0A5FC61B9D03B6A5201F704CC3D /* xuanzhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 022EEB97DABF1242034DAE9B6732FA83 /* xuanzhuan@3x.png */; };
-		E7157FD1F089B8148181D991E12AD11F /* RatioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5CBBBA601F880B6BF4277E1422EE0 /* RatioCell.m */; };
-		E8C5B915255EBAD3BA94E7FB23121E1E /* Ratio_1_1_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF6ADD9FB824ADE03A2CE179895FC /* Ratio_1_1_blue@2x.png */; };
-		E94BB283B3A74EEC82DEA7A1D395BC4B /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CB9A2CCE8F10723BEADA2A5C721BD1 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC591E10D8975011B151841D672A9283 /* RatioImgModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 060E3A1A5A73351C272F45432B33343C /* RatioImgModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CC178ADF8E89023EF7419599FD413C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 00278A3682D7B3253627D880F0533727 /* TOCroppedImageAttributes.m */; };
+		C966630D4316422C75DC951E7207E8D6 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4EF396A356987F1488E9714FD93221 /* TOActivityCroppedImageProvider.m */; };
+		CCD63000C377A9E3ACD372208143D478 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B852116F339DA9C82D99BF79C7F279 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFED5C8AADD974114DD3CDB9B5DB2AE /* Ratio_16_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3791F7920BB13379B0035F946BEC1B03 /* Ratio_16_9@3x.png */; };
+		E62655A7F78A582D416113BD0D95E252 /* ziyou_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A48E97FD5C78E85F7FBE4E65FCABEE0 /* ziyou_blue@3x.png */; };
+		E7157FD1F089B8148181D991E12AD11F /* RatioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE385C4AFFEAF552BE8E05A5C0A02C7 /* RatioCell.m */; };
+		E94BB283B3A74EEC82DEA7A1D395BC4B /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEC87F50CF331FC35093DB7D734A3C9 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A19CCF11D1F0F375EBA76BAE6AA6BF /* Ou_CutPics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */; };
-		E9C903260C662012FA2B7471E9761B2E /* Ratio_1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2B32962E49176CBE4010F1E400B1D7 /* Ratio_1_1@2x.png */; };
-		EB8680E828A482A6A9ABFCCA54B72416 /* Ratio_4_3_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4628F78449B10978E56621AB77046F /* Ratio_4_3_blue@2x.png */; };
-		F397B271EEFCA545257FBA7D5CA42B67 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2CABBF44CF7427720645EF6D0773E /* TOCropOverlayView.m */; };
-		FB8DE4BADC2F0ED28E2F0EF733F01353 /* Ratio_16_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D7C3E5EC15C6D582692803386C610E /* Ratio_16_9@2x.png */; };
+		EC0519BEF4F133D43F738EF93825AF08 /* Ratio_1_1_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A628116E8C7414FCF1605D33643974 /* Ratio_1_1_blue@3x.png */; };
+		F397B271EEFCA545257FBA7D5CA42B67 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE055998B032014E54931B58C11C5C /* TOCropOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,95 +99,94 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00536F90C47EF1D34FF0A62C1D40D3CB /* xuanzhuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "xuanzhuan@2x.png"; path = "Ou_CutPhoto/Assets/xuanzhuan@2x.png"; sourceTree = "<group>"; };
-		00C2CABBF44CF7427720645EF6D0773E /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
-		022EEB97DABF1242034DAE9B6732FA83 /* xuanzhuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "xuanzhuan@3x.png"; path = "Ou_CutPhoto/Assets/xuanzhuan@3x.png"; sourceTree = "<group>"; };
-		05207374F424C08BDCDE65C3CB90B122 /* Ou_CutPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Ou_CutPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0019AAE54BF437A4902F0A2320B37EEE /* huanyuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "huanyuan@2x.png"; path = "Ou_CutPhoto/Assets/huanyuan@2x.png"; sourceTree = "<group>"; };
+		00278A3682D7B3253627D880F0533727 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		00B13EF60C9F3C67817FB423CA77E86F /* Ratio_1_1_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1_blue@2x.png"; sourceTree = "<group>"; };
+		060E3A1A5A73351C272F45432B33343C /* RatioImgModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioImgModel.h; sourceTree = "<group>"; };
+		07D5E398BB41D32C7DA56058F34A3E5A /* Ou_CutPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-umbrella.h"; sourceTree = "<group>"; };
 		0880819AEA4A59702AAC402B792E216F /* Pods-Ou_CutPhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ou_CutPhoto_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C091DB5CE28764D108A447043AF02ED /* Ratio_9_16_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16_blue@2x.png"; sourceTree = "<group>"; };
-		0C31672C52CC9463C3196443AE87B231 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
-		0F7C224F6EA222612495B1E5B4A016B0 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
-		21F3C2BB5EF0529BBAAB7A5466C2013B /* Ratio_3_4_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4_blue@3x.png"; sourceTree = "<group>"; };
+		09DAE0F9F0FDE44E4C0C4A246665721F /* RatioCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioCell.h; sourceTree = "<group>"; };
+		0A48E97FD5C78E85F7FBE4E65FCABEE0 /* ziyou_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou_blue@3x.png"; path = "Ou_CutPhoto/Assets/ziyou_blue@3x.png"; sourceTree = "<group>"; };
+		0DDA765431BC8026FF2DF8067C28F0C2 /* Ratio_1_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1@2x.png"; sourceTree = "<group>"; };
+		0FC743671D60EDC31B9FC4487AF922D1 /* Ratio_1_1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1@3x.png"; sourceTree = "<group>"; };
+		0FEC87F50CF331FC35093DB7D734A3C9 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		11FE055998B032014E54931B58C11C5C /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		1DE056ED955E4B4E17F1519BE236F1D4 /* Ou_CutPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Ou_CutPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FE6482F5A190525535C9C8D59B12B8D /* Ratio_4_3_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3_blue@3x.png"; sourceTree = "<group>"; };
+		20748A1A45A06DAB104696866C063E68 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
 		2293371F3A2C17F8DCA4759475BF2249 /* Ou_CutPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ou_CutPhoto.framework; path = Ou_CutPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BA32BDAD7BBA955DB65C81D4E59B77 /* ziyou_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou_blue@3x.png"; path = "Ou_CutPhoto/Assets/ziyou_blue@3x.png"; sourceTree = "<group>"; };
-		2538F8915EBEDD8B4500B33DDCBF7F98 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
-		26CB875E54C8ABFEC25C8D454D7B9FA0 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
-		2756CF9A7B38DA09DB5D51DA61D5FD4A /* Ou_CutPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-umbrella.h"; sourceTree = "<group>"; };
-		27D7C3E5EC15C6D582692803386C610E /* Ratio_16_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9@2x.png"; sourceTree = "<group>"; };
+		22961784C6FF1EB7B21BC7BA24C029CF /* RatioCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = RatioCell.nib; path = Ou_CutPhoto/Assets/RatioCell.nib; sourceTree = "<group>"; };
+		2610C016DE4D779A76ACBCD6AFAFA9DF /* Ratio_9_16@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16@2x.png"; sourceTree = "<group>"; };
 		2ADBA2EB76E986D21C8E67FF13B90526 /* Pods-Ou_CutPhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ou_CutPhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F3960459653E062D8CD16B0327CF799 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		2F2AA2617065DC17829DE0931BC5A064 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = Ou_CutPhoto/Classes/TOCropViewController.m; sourceTree = "<group>"; };
 		3144D12D05DDB756BC1FBB581F6B3646 /* Pods-Ou_CutPhoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ou_CutPhoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3597AC663032B8BF2B1B7F84DD735F04 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
+		3791F7920BB13379B0035F946BEC1B03 /* Ratio_16_9@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9@3x.png"; sourceTree = "<group>"; };
 		381A71D59EC7685287BC23383E036FE9 /* Pods-Ou_CutPhoto_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Example-Info.plist"; sourceTree = "<group>"; };
-		3B315EA3F96ED0CEED5A70305CB2834D /* Ratio_1_1_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1_blue@3x.png"; sourceTree = "<group>"; };
-		3CAB389D1DBCD6C69D3D126CED1EF71B /* RatioBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioBarView.h; sourceTree = "<group>"; };
+		3A9E387C7CB7332BF4717FADE4D8424F /* Ratio_3_4@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4@3x.png"; sourceTree = "<group>"; };
+		3ABA379339C65533A4B7D2EAE41152D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3D1CE6484D59F787D921088AF3E65767 /* Pods-Ou_CutPhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		40E1ABDC26361E9874DFBF3FE14A1972 /* huanyuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "huanyuan@3x.png"; path = "Ou_CutPhoto/Assets/huanyuan@3x.png"; sourceTree = "<group>"; };
-		4182BF8A01B5D5D8A637ED1CEE5CC4A8 /* Ratio_16_9_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9_blue@3x.png"; sourceTree = "<group>"; };
-		41A412A776A73414B63BF337420BF32D /* ziyou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou@3x.png"; path = "Ou_CutPhoto/Assets/ziyou@3x.png"; sourceTree = "<group>"; };
-		44854589DBA63E1104762EDA1F98B618 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		3FA23C69F7FDE5366F497E9DCB507196 /* RatioImgModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioImgModel.m; sourceTree = "<group>"; };
+		44C8401ACADD7D1159238B48FFF33D16 /* Ou_CutPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ou_CutPhoto-dummy.m"; sourceTree = "<group>"; };
+		452B1BFA5C7DBFFCFC32D35AA7DDC71D /* Ratio_9_16_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16_blue@3x.png"; sourceTree = "<group>"; };
+		4E4D6B5C4CBA6C62329C23EC7A7CD251 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		4EDABD09A443010DDD5FF7012875FDAC /* Ratio_3_4_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4_blue@3x.png"; sourceTree = "<group>"; };
+		5366CABEAB0F7E22EF6B56CFB4F02A9F /* huanyuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "huanyuan@3x.png"; path = "Ou_CutPhoto/Assets/huanyuan@3x.png"; sourceTree = "<group>"; };
+		546FF82CB92312485149416A6AC8F0D9 /* RatioBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioBarView.m; sourceTree = "<group>"; };
 		571178E6E9B9616D94648D9D08DFC482 /* Pods-Ou_CutPhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ou_CutPhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
-		58717923AF205A7DC76AD794D996E9D9 /* Ratio_3_4_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4_blue@2x.png"; sourceTree = "<group>"; };
-		5A13E4791154EEE443AB41DA5FB2F571 /* Ratio_4_3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3@3x.png"; sourceTree = "<group>"; };
-		5D205C225932E6AD10CA66927875D88F /* RatioCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioCell.h; sourceTree = "<group>"; };
-		5E2B32962E49176CBE4010F1E400B1D7 /* Ratio_1_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1@2x.png"; sourceTree = "<group>"; };
+		595429A124E75A37C1FE1792A2C46CFA /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ou_CutPhoto.xcconfig; sourceTree = "<group>"; };
+		5D583B80A65FEEF18CE5B115F7433A19 /* xuanzhuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "xuanzhuan@2x.png"; path = "Ou_CutPhoto/Assets/xuanzhuan@2x.png"; sourceTree = "<group>"; };
+		5E040C6AD6E947F661B655A67F2B633C /* ziyou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou@2x.png"; path = "Ou_CutPhoto/Assets/ziyou@2x.png"; sourceTree = "<group>"; };
 		5EE9E723FDAEDE2D3DEF74701A83FEB9 /* Pods-Ou_CutPhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ou_CutPhoto_Tests.modulemap"; sourceTree = "<group>"; };
-		608B9A5D4C4F0D9E4AD0AF60CBD24C9D /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		6129F64A6EE053D22ADFB8C4224F3C90 /* Ratio_3_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4@2x.png"; sourceTree = "<group>"; };
-		63837281D4086EAFEA2F8F112296555E /* Ratio_3_4@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4@3x.png"; sourceTree = "<group>"; };
-		6441EC9A751AD47130D70264F31B811C /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = Ou_CutPhoto/Classes/TOCropViewController.h; sourceTree = "<group>"; };
-		65CB9A2CCE8F10723BEADA2A5C721BD1 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		64E86A3627EBBFB1504908AEF9D98C60 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		688EF44A9790082D3FBFD0AB9C861333 /* ziyou_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou_blue@2x.png"; path = "Ou_CutPhoto/Assets/ziyou_blue@2x.png"; sourceTree = "<group>"; };
+		6AAE6A00B38073B219E2F4336E50163C /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
 		6BEBFFAC372C96C03E1DF720C9B05CD8 /* Pods-Ou_CutPhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ou_CutPhoto_Example.modulemap"; sourceTree = "<group>"; };
+		6C9A97097011A0E1F97D1746134A0455 /* Ratio_16_9_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9_blue@2x.png"; sourceTree = "<group>"; };
 		6CE22B6813B3F3BEB21B4ECB0BF9169D /* Ou_CutPics.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Ou_CutPics.bundle; path = "Ou_CutPhoto-Ou_CutPics.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC86B009346A4008C2109631AB67B89 /* Pods-Ou_CutPhoto_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Tests-Info.plist"; sourceTree = "<group>"; };
-		705769308BB67DE341990960EEB97C7F /* Ratio_16_9@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9@3x.png"; sourceTree = "<group>"; };
 		7593E519B58F07AFEDBF35611B647CEE /* Pods_Ou_CutPhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ou_CutPhoto_Tests.framework; path = "Pods-Ou_CutPhoto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8077DC0BECCB52739DB47E5DB2A294 /* Ratio_16_9_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9_blue@2x.png"; sourceTree = "<group>"; };
-		8AEC9B23E9CEE2F72C93E81818B81286 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
-		8DCCED2F2CE178982EDBA5FACE3DC55D /* RatioImgModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioImgModel.m; sourceTree = "<group>"; };
-		9276C7CB2079B6ABDA92FF3C995DF184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		972C2D7CB01029818E987696055EA63B /* ziyou_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou_blue@2x.png"; path = "Ou_CutPhoto/Assets/ziyou_blue@2x.png"; sourceTree = "<group>"; };
-		97D022164D84D08EC820854B210C6443 /* huanyuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "huanyuan@2x.png"; path = "Ou_CutPhoto/Assets/huanyuan@2x.png"; sourceTree = "<group>"; };
-		97FAE745835439C82DC30653CE96E723 /* Ratio_4_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3@2x.png"; sourceTree = "<group>"; };
-		9B5A28959FAFFB9531F82B05CB1FA7BE /* Ou_CutPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ou_CutPhoto.modulemap; sourceTree = "<group>"; };
-		9C97AB97EDA39B73F4295424285EBD31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D216607C0E5550C485EE46F87614C64 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		7B5EEEBD3348EF6322FF7B331AF95FDE /* Ratio_3_4_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4_blue@2x.png"; sourceTree = "<group>"; };
+		7D4DA4BEEBEEC80ADC64CE9A0E9ADBBE /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		83A628116E8C7414FCF1605D33643974 /* Ratio_1_1_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1_blue@3x.png"; sourceTree = "<group>"; };
+		8E12875DC7B3E9DD5DE06AE1D9CC4F28 /* Ratio_4_3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3@3x.png"; sourceTree = "<group>"; };
+		906B763D0BCB6A709738726112FA8772 /* Ratio_9_16@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16@3x.png"; sourceTree = "<group>"; };
+		99918A47266BC14E6581567DAF9F2E52 /* Ou_CutPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E98670B908F43DB189EAD29156941B8 /* Pods-Ou_CutPhoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ou_CutPhoto_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9F340542941F7387309B3F1A4001F9BA /* Ratio_9_16_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16_blue@3x.png"; sourceTree = "<group>"; };
+		9FBCD85A364EBC10D5BACFD47C8AD89C /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
 		A2CA2425C8822E5CBEF53B5468398951 /* Pods_Ou_CutPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ou_CutPhoto_Example.framework; path = "Pods-Ou_CutPhoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E5CBBBA601F880B6BF4277E1422EE0 /* RatioCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioCell.m; sourceTree = "<group>"; };
-		A94CF6ADD9FB824ADE03A2CE179895FC /* Ratio_1_1_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1_blue@2x.png"; sourceTree = "<group>"; };
+		A522C1A1E8B3A15812B9805D1FDCAEBF /* Ou_CutPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ou_CutPhoto.modulemap; sourceTree = "<group>"; };
+		A91F0B4F9394BA61E7A1CA557BB305C3 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		A954A80C4FDBCF52F83451966055FEB6 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		AC84E15BC0D886F77753AABE2B07E2F1 /* Ratio_16_9_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9_blue@3x.png"; sourceTree = "<group>"; };
 		AE46E474040D5D741973E614F27A0F2A /* Pods-Ou_CutPhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ou_CutPhoto_Example-dummy.m"; sourceTree = "<group>"; };
-		B12FF5F23ED70444D072A57CF8F311B1 /* Ou_CutPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ou_CutPhoto-prefix.pch"; sourceTree = "<group>"; };
+		AEAA9FDBF488B105375E2B33405036C3 /* Ratio_9_16_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16_blue@2x.png"; sourceTree = "<group>"; };
+		B29859F7AA3AF182A210131C66EB4591 /* Ratio_16_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_16_9@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_16_9@2x.png"; sourceTree = "<group>"; };
+		B35034A49E3BC535DD665336CED2EE0D /* RatioBarView.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = RatioBarView.nib; path = Ou_CutPhoto/Assets/RatioBarView.nib; sourceTree = "<group>"; };
 		B45516A15466411A5158A475DB95E618 /* Pods-Ou_CutPhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B56F5E5538FE74FCA1909E6EF7482ED6 /* RatioBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioBarView.m; sourceTree = "<group>"; };
 		B6EA22D44EB1643D4139742463B19431 /* Pods-Ou_CutPhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B77D8BB34233EDAA2E5F0F92037A5F69 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
-		B8D23182BC1A20502F839F98F7B7380B /* Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
-		B988913A42A0926CBA6D44B572F08982 /* RatioBarView.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = RatioBarView.nib; path = Ou_CutPhoto/Assets/RatioBarView.nib; sourceTree = "<group>"; };
-		BA4D3A4BAA05D5778FF036A078C03672 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
-		BCB1CF5BAC245C3A42B5005108D43193 /* Ratio_4_3_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3_blue@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3_blue@3x.png"; sourceTree = "<group>"; };
-		BE4628F78449B10978E56621AB77046F /* Ratio_4_3_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3_blue@2x.png"; sourceTree = "<group>"; };
-		C06D29198E1B01CA0767A7E6DAF745B9 /* RatioCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = RatioCell.nib; path = Ou_CutPhoto/Assets/RatioCell.nib; sourceTree = "<group>"; };
-		C09797ADF170867CD86309187836B80B /* ziyou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou@2x.png"; path = "Ou_CutPhoto/Assets/ziyou@2x.png"; sourceTree = "<group>"; };
-		C0F003E080A207EE16CEFF81E104D9DB /* Ou_CutPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ou_CutPhoto-dummy.m"; sourceTree = "<group>"; };
-		C6A7E3A1BDE1ADD4F33F0FC857C40C50 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		BA9FCA3CAE93B175A7AD914633F84918 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = Ou_CutPhoto/Classes/TOCropViewController.h; sourceTree = "<group>"; };
+		BE08C1BC8D2283E5930A71CA4740A29A /* Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
+		C0B852116F339DA9C82D99BF79C7F279 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		C3497D16C933E554B0D085F4826B8137 /* xuanzhuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "xuanzhuan@3x.png"; path = "Ou_CutPhoto/Assets/xuanzhuan@3x.png"; sourceTree = "<group>"; };
+		C3A4FCF7ED09BF3B725C5E0E5E476A28 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
 		C6BFF902A7EFE9B7AA2EB3D9628E17BE /* Pods-Ou_CutPhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C72F672B994753E49D5A1F0B0B82B859 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		CA71B759A477883103B185D3662B6EAC /* ziyou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ziyou@3x.png"; path = "Ou_CutPhoto/Assets/ziyou@3x.png"; sourceTree = "<group>"; };
 		CAABB29FE59A49BBD06D085EC2C59F95 /* Pods-Ou_CutPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ou_CutPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD35ABF6AB07E26A88031C0FCADF2193 /* Pods-Ou_CutPhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ou_CutPhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D65F9BB4A1CAD69D146A32EB6A4CBAC2 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
-		D8C4814AD329284AD6AED1D9E5D0B842 /* Ratio_9_16@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16@2x.png"; sourceTree = "<group>"; };
-		DDBA87FE3A197CE2425380BD9E9329D2 /* Ou_CutPics.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Ou_CutPics.bundle; path = Ou_CutPhoto/Assets/Ou_CutPics.bundle; sourceTree = "<group>"; };
-		E1085C8D745362115AD5415C357B074F /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
-		E4A75C6DFC74F1EB84794695DC6DB220 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = Ou_CutPhoto/Classes/TOCropViewController.m; sourceTree = "<group>"; };
-		E533D8D87F416910DA5DDACB6ADB6EDA /* Ratio_9_16@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_9_16@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_9_16@3x.png"; sourceTree = "<group>"; };
-		EE90D8011DF67EAE880F53DCA8D43F89 /* RatioImgModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioImgModel.h; sourceTree = "<group>"; };
-		F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ou_CutPhoto.xcconfig; sourceTree = "<group>"; };
+		CF97903B0EBCB44AC9D974CF33A431E5 /* Ratio_3_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_3_4@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_3_4@2x.png"; sourceTree = "<group>"; };
+		D6AE92ADD3EF965F7B4733EF93E1BE08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E30D9D5C75B0775260192FF984078A8F /* Ratio_4_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3@2x.png"; sourceTree = "<group>"; };
+		E9878BFE729BF57E5E0B6C86C3610BE4 /* Ratio_4_3_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_4_3_blue@2x.png"; path = "Ou_CutPhoto/Assets/Ratio_4_3_blue@2x.png"; sourceTree = "<group>"; };
+		ECE385C4AFFEAF552BE8E05A5C0A02C7 /* RatioCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RatioCell.m; sourceTree = "<group>"; };
+		EE1EBEE07F8510E92F86D9C1D6A04E21 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist"; sourceTree = "<group>"; };
+		EF2344F660C70FC6ABAEC670CA7C032C /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		FA687C3A7AD7CAC11D5E773C3CAED82C /* RatioBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RatioBarView.h; sourceTree = "<group>"; };
+		FB4EF396A356987F1488E9714FD93221 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		FDA85D0616F7EA13CBEB27243C444C5A /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
 		FE2BFE67E437CDA152067CFF308AA233 /* Pods-Ou_CutPhoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ou_CutPhoto_Tests-dummy.m"; sourceTree = "<group>"; };
-		FF42C8BF21F885023071A381453D6C4A /* Ratio_1_1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ratio_1_1@3x.png"; path = "Ou_CutPhoto/Assets/Ratio_1_1@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,53 +224,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CF45A51222D445C9F96FCC9172EF4CE /* Pod */ = {
+		102A2FBB5DF5D864572989D43F0C29AC /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				9C97AB97EDA39B73F4295424285EBD31 /* LICENSE */,
-				05207374F424C08BDCDE65C3CB90B122 /* Ou_CutPhoto.podspec */,
-				9276C7CB2079B6ABDA92FF3C995DF184 /* README.md */,
+				C3A4FCF7ED09BF3B725C5E0E5E476A28 /* TOCropViewConstants.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2A6443DFD19B0AA1935A38FDBF8C8E09 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B5A28959FAFFB9531F82B05CB1FA7BE /* Ou_CutPhoto.modulemap */,
-				F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */,
-				C0F003E080A207EE16CEFF81E104D9DB /* Ou_CutPhoto-dummy.m */,
-				B8D23182BC1A20502F839F98F7B7380B /* Ou_CutPhoto-Info.plist */,
-				B12FF5F23ED70444D072A57CF8F311B1 /* Ou_CutPhoto-prefix.pch */,
-				2756CF9A7B38DA09DB5D51DA61D5FD4A /* Ou_CutPhoto-umbrella.h */,
-				8AEC9B23E9CEE2F72C93E81818B81286 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Ou_CutPhoto";
-			sourceTree = "<group>";
-		};
-		3B0BF36A909020B5EB692C0635BAF604 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				EE90D8011DF67EAE880F53DCA8D43F89 /* RatioImgModel.h */,
-				8DCCED2F2CE178982EDBA5FACE3DC55D /* RatioImgModel.m */,
-				2F3960459653E062D8CD16B0327CF799 /* TOActivityCroppedImageProvider.h */,
-				D65F9BB4A1CAD69D146A32EB6A4CBAC2 /* TOActivityCroppedImageProvider.m */,
-				0C31672C52CC9463C3196443AE87B231 /* TOCroppedImageAttributes.h */,
-				E1085C8D745362115AD5415C357B074F /* TOCroppedImageAttributes.m */,
-				65CB9A2CCE8F10723BEADA2A5C721BD1 /* TOCropViewControllerTransitioning.h */,
-				0F7C224F6EA222612495B1E5B4A016B0 /* TOCropViewControllerTransitioning.m */,
-			);
-			name = Models;
-			path = Ou_CutPhoto/Classes/Models;
+			name = Constants;
+			path = Ou_CutPhoto/Classes/Constants;
 			sourceTree = "<group>";
 		};
 		3D0C12AEA8BDD999F6FA0081501448F6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1C17E3965118A6ED57595C64D154142 /* Ou_CutPhoto */,
+				5261EAFC16BEEAA237D977052FF5139D /* Ou_CutPhoto */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DEFADD7FBEAEA145DB3BA928348C14A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A522C1A1E8B3A15812B9805D1FDCAEBF /* Ou_CutPhoto.modulemap */,
+				59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */,
+				44C8401ACADD7D1159238B48FFF33D16 /* Ou_CutPhoto-dummy.m */,
+				BE08C1BC8D2283E5930A71CA4740A29A /* Ou_CutPhoto-Info.plist */,
+				99918A47266BC14E6581567DAF9F2E52 /* Ou_CutPhoto-prefix.pch */,
+				07D5E398BB41D32C7DA56058F34A3E5A /* Ou_CutPhoto-umbrella.h */,
+				EE1EBEE07F8510E92F86D9C1D6A04E21 /* ResourceBundle-Ou_CutPics-Ou_CutPhoto-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Ou_CutPhoto";
+			sourceTree = "<group>";
+		};
+		5261EAFC16BEEAA237D977052FF5139D /* Ou_CutPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				BA9FCA3CAE93B175A7AD914633F84918 /* TOCropViewController.h */,
+				2F2AA2617065DC17829DE0931BC5A064 /* TOCropViewController.m */,
+				827D70274DC2CD0A6D41C3858486EBF1 /* Categories */,
+				102A2FBB5DF5D864572989D43F0C29AC /* Constants */,
+				59BF471800EC5BEACAF763F009727929 /* Models */,
+				B13DDDC8FE9EA6D6FA69D04A5A94EBA9 /* Pod */,
+				E37BF515DEB7A6E1D5763F8223905C3F /* Resources */,
+				3DEFADD7FBEAEA145DB3BA928348C14A /* Support Files */,
+				6575AD0DACB2EBEE0948B55318E3D3C7 /* Views */,
+			);
+			name = Ou_CutPhoto;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		550D81AF2C5F721D503285E27E5EC54A /* Pods-Ou_CutPhoto_Example */ = {
@@ -292,42 +290,40 @@
 			path = "Target Support Files/Pods-Ou_CutPhoto_Example";
 			sourceTree = "<group>";
 		};
-		62B490618C12B7D925D5855B0482F53D /* Resources */ = {
+		59BF471800EC5BEACAF763F009727929 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				97D022164D84D08EC820854B210C6443 /* huanyuan@2x.png */,
-				40E1ABDC26361E9874DFBF3FE14A1972 /* huanyuan@3x.png */,
-				DDBA87FE3A197CE2425380BD9E9329D2 /* Ou_CutPics.bundle */,
-				27D7C3E5EC15C6D582692803386C610E /* Ratio_16_9@2x.png */,
-				705769308BB67DE341990960EEB97C7F /* Ratio_16_9@3x.png */,
-				7C8077DC0BECCB52739DB47E5DB2A294 /* Ratio_16_9_blue@2x.png */,
-				4182BF8A01B5D5D8A637ED1CEE5CC4A8 /* Ratio_16_9_blue@3x.png */,
-				5E2B32962E49176CBE4010F1E400B1D7 /* Ratio_1_1@2x.png */,
-				FF42C8BF21F885023071A381453D6C4A /* Ratio_1_1@3x.png */,
-				A94CF6ADD9FB824ADE03A2CE179895FC /* Ratio_1_1_blue@2x.png */,
-				3B315EA3F96ED0CEED5A70305CB2834D /* Ratio_1_1_blue@3x.png */,
-				6129F64A6EE053D22ADFB8C4224F3C90 /* Ratio_3_4@2x.png */,
-				63837281D4086EAFEA2F8F112296555E /* Ratio_3_4@3x.png */,
-				58717923AF205A7DC76AD794D996E9D9 /* Ratio_3_4_blue@2x.png */,
-				21F3C2BB5EF0529BBAAB7A5466C2013B /* Ratio_3_4_blue@3x.png */,
-				97FAE745835439C82DC30653CE96E723 /* Ratio_4_3@2x.png */,
-				5A13E4791154EEE443AB41DA5FB2F571 /* Ratio_4_3@3x.png */,
-				BE4628F78449B10978E56621AB77046F /* Ratio_4_3_blue@2x.png */,
-				BCB1CF5BAC245C3A42B5005108D43193 /* Ratio_4_3_blue@3x.png */,
-				D8C4814AD329284AD6AED1D9E5D0B842 /* Ratio_9_16@2x.png */,
-				E533D8D87F416910DA5DDACB6ADB6EDA /* Ratio_9_16@3x.png */,
-				0C091DB5CE28764D108A447043AF02ED /* Ratio_9_16_blue@2x.png */,
-				9F340542941F7387309B3F1A4001F9BA /* Ratio_9_16_blue@3x.png */,
-				B988913A42A0926CBA6D44B572F08982 /* RatioBarView.nib */,
-				C06D29198E1B01CA0767A7E6DAF745B9 /* RatioCell.nib */,
-				00536F90C47EF1D34FF0A62C1D40D3CB /* xuanzhuan@2x.png */,
-				022EEB97DABF1242034DAE9B6732FA83 /* xuanzhuan@3x.png */,
-				C09797ADF170867CD86309187836B80B /* ziyou@2x.png */,
-				41A412A776A73414B63BF337420BF32D /* ziyou@3x.png */,
-				972C2D7CB01029818E987696055EA63B /* ziyou_blue@2x.png */,
-				22BA32BDAD7BBA955DB65C81D4E59B77 /* ziyou_blue@3x.png */,
+				060E3A1A5A73351C272F45432B33343C /* RatioImgModel.h */,
+				3FA23C69F7FDE5366F497E9DCB507196 /* RatioImgModel.m */,
+				20748A1A45A06DAB104696866C063E68 /* TOActivityCroppedImageProvider.h */,
+				FB4EF396A356987F1488E9714FD93221 /* TOActivityCroppedImageProvider.m */,
+				595429A124E75A37C1FE1792A2C46CFA /* TOCroppedImageAttributes.h */,
+				00278A3682D7B3253627D880F0533727 /* TOCroppedImageAttributes.m */,
+				0FEC87F50CF331FC35093DB7D734A3C9 /* TOCropViewControllerTransitioning.h */,
+				EF2344F660C70FC6ABAEC670CA7C032C /* TOCropViewControllerTransitioning.m */,
 			);
-			name = Resources;
+			name = Models;
+			path = Ou_CutPhoto/Classes/Models;
+			sourceTree = "<group>";
+		};
+		6575AD0DACB2EBEE0948B55318E3D3C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA687C3A7AD7CAC11D5E773C3CAED82C /* RatioBarView.h */,
+				546FF82CB92312485149416A6AC8F0D9 /* RatioBarView.m */,
+				09DAE0F9F0FDE44E4C0C4A246665721F /* RatioCell.h */,
+				ECE385C4AFFEAF552BE8E05A5C0A02C7 /* RatioCell.m */,
+				C0B852116F339DA9C82D99BF79C7F279 /* TOCropOverlayView.h */,
+				11FE055998B032014E54931B58C11C5C /* TOCropOverlayView.m */,
+				FDA85D0616F7EA13CBEB27243C444C5A /* TOCropScrollView.h */,
+				A91F0B4F9394BA61E7A1CA557BB305C3 /* TOCropScrollView.m */,
+				9FBCD85A364EBC10D5BACFD47C8AD89C /* TOCropToolbar.h */,
+				64E86A3627EBBFB1504908AEF9D98C60 /* TOCropToolbar.m */,
+				A954A80C4FDBCF52F83451966055FEB6 /* TOCropView.h */,
+				4E4D6B5C4CBA6C62329C23EC7A7CD251 /* TOCropView.m */,
+			);
+			name = Views;
+			path = Ou_CutPhoto/Classes/Views;
 			sourceTree = "<group>";
 		};
 		6F1D35B9F233DE0FE45EDE09FEC60C8F /* Products */ = {
@@ -341,30 +337,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75EFFB7F7F8477CEF74C0351B44F3C26 /* Constants */ = {
+		827D70274DC2CD0A6D41C3858486EBF1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3597AC663032B8BF2B1B7F84DD735F04 /* TOCropViewConstants.h */,
+				6AAE6A00B38073B219E2F4336E50163C /* UIImage+CropRotate.h */,
+				7D4DA4BEEBEEC80ADC64CE9A0E9ADBBE /* UIImage+CropRotate.m */,
 			);
-			name = Constants;
-			path = Ou_CutPhoto/Classes/Constants;
+			name = Categories;
+			path = Ou_CutPhoto/Classes/Categories;
 			sourceTree = "<group>";
 		};
-		B1C17E3965118A6ED57595C64D154142 /* Ou_CutPhoto */ = {
+		B13DDDC8FE9EA6D6FA69D04A5A94EBA9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6441EC9A751AD47130D70264F31B811C /* TOCropViewController.h */,
-				E4A75C6DFC74F1EB84794695DC6DB220 /* TOCropViewController.m */,
-				E68CFF16B3819682AFB860E7D7DA9173 /* Categories */,
-				75EFFB7F7F8477CEF74C0351B44F3C26 /* Constants */,
-				3B0BF36A909020B5EB692C0635BAF604 /* Models */,
-				0CF45A51222D445C9F96FCC9172EF4CE /* Pod */,
-				62B490618C12B7D925D5855B0482F53D /* Resources */,
-				2A6443DFD19B0AA1935A38FDBF8C8E09 /* Support Files */,
-				E69E172CBBE78F116DC85AD2C8DE9504 /* Views */,
+				D6AE92ADD3EF965F7B4733EF93E1BE08 /* LICENSE */,
+				1DE056ED955E4B4E17F1519BE236F1D4 /* Ou_CutPhoto.podspec */,
+				3ABA379339C65533A4B7D2EAE41152D2 /* README.md */,
 			);
-			name = Ou_CutPhoto;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -410,34 +400,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E68CFF16B3819682AFB860E7D7DA9173 /* Categories */ = {
+		E37BF515DEB7A6E1D5763F8223905C3F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D216607C0E5550C485EE46F87614C64 /* UIImage+CropRotate.h */,
-				608B9A5D4C4F0D9E4AD0AF60CBD24C9D /* UIImage+CropRotate.m */,
+				0019AAE54BF437A4902F0A2320B37EEE /* huanyuan@2x.png */,
+				5366CABEAB0F7E22EF6B56CFB4F02A9F /* huanyuan@3x.png */,
+				B29859F7AA3AF182A210131C66EB4591 /* Ratio_16_9@2x.png */,
+				3791F7920BB13379B0035F946BEC1B03 /* Ratio_16_9@3x.png */,
+				6C9A97097011A0E1F97D1746134A0455 /* Ratio_16_9_blue@2x.png */,
+				AC84E15BC0D886F77753AABE2B07E2F1 /* Ratio_16_9_blue@3x.png */,
+				0DDA765431BC8026FF2DF8067C28F0C2 /* Ratio_1_1@2x.png */,
+				0FC743671D60EDC31B9FC4487AF922D1 /* Ratio_1_1@3x.png */,
+				00B13EF60C9F3C67817FB423CA77E86F /* Ratio_1_1_blue@2x.png */,
+				83A628116E8C7414FCF1605D33643974 /* Ratio_1_1_blue@3x.png */,
+				CF97903B0EBCB44AC9D974CF33A431E5 /* Ratio_3_4@2x.png */,
+				3A9E387C7CB7332BF4717FADE4D8424F /* Ratio_3_4@3x.png */,
+				7B5EEEBD3348EF6322FF7B331AF95FDE /* Ratio_3_4_blue@2x.png */,
+				4EDABD09A443010DDD5FF7012875FDAC /* Ratio_3_4_blue@3x.png */,
+				E30D9D5C75B0775260192FF984078A8F /* Ratio_4_3@2x.png */,
+				8E12875DC7B3E9DD5DE06AE1D9CC4F28 /* Ratio_4_3@3x.png */,
+				E9878BFE729BF57E5E0B6C86C3610BE4 /* Ratio_4_3_blue@2x.png */,
+				1FE6482F5A190525535C9C8D59B12B8D /* Ratio_4_3_blue@3x.png */,
+				2610C016DE4D779A76ACBCD6AFAFA9DF /* Ratio_9_16@2x.png */,
+				906B763D0BCB6A709738726112FA8772 /* Ratio_9_16@3x.png */,
+				AEAA9FDBF488B105375E2B33405036C3 /* Ratio_9_16_blue@2x.png */,
+				452B1BFA5C7DBFFCFC32D35AA7DDC71D /* Ratio_9_16_blue@3x.png */,
+				B35034A49E3BC535DD665336CED2EE0D /* RatioBarView.nib */,
+				22961784C6FF1EB7B21BC7BA24C029CF /* RatioCell.nib */,
+				5D583B80A65FEEF18CE5B115F7433A19 /* xuanzhuan@2x.png */,
+				C3497D16C933E554B0D085F4826B8137 /* xuanzhuan@3x.png */,
+				5E040C6AD6E947F661B655A67F2B633C /* ziyou@2x.png */,
+				CA71B759A477883103B185D3662B6EAC /* ziyou@3x.png */,
+				688EF44A9790082D3FBFD0AB9C861333 /* ziyou_blue@2x.png */,
+				0A48E97FD5C78E85F7FBE4E65FCABEE0 /* ziyou_blue@3x.png */,
 			);
-			name = Categories;
-			path = Ou_CutPhoto/Classes/Categories;
-			sourceTree = "<group>";
-		};
-		E69E172CBBE78F116DC85AD2C8DE9504 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3CAB389D1DBCD6C69D3D126CED1EF71B /* RatioBarView.h */,
-				B56F5E5538FE74FCA1909E6EF7482ED6 /* RatioBarView.m */,
-				5D205C225932E6AD10CA66927875D88F /* RatioCell.h */,
-				A6E5CBBBA601F880B6BF4277E1422EE0 /* RatioCell.m */,
-				44854589DBA63E1104762EDA1F98B618 /* TOCropOverlayView.h */,
-				00C2CABBF44CF7427720645EF6D0773E /* TOCropOverlayView.m */,
-				B77D8BB34233EDAA2E5F0F92037A5F69 /* TOCropScrollView.h */,
-				C6A7E3A1BDE1ADD4F33F0FC857C40C50 /* TOCropScrollView.m */,
-				2538F8915EBEDD8B4500B33DDCBF7F98 /* TOCropToolbar.h */,
-				26CB875E54C8ABFEC25C8D454D7B9FA0 /* TOCropToolbar.m */,
-				BA4D3A4BAA05D5778FF036A078C03672 /* TOCropView.h */,
-				C72F672B994753E49D5A1F0B0B82B859 /* TOCropView.m */,
-			);
-			name = Views;
-			path = Ou_CutPhoto/Classes/Views;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F7C63BF156BECE2D635421694671195B /* Targets Support Files */ = {
@@ -536,7 +533,7 @@
 			buildPhases = (
 				D5087F1E9947BC33CC602E89A15D8898 /* Sources */,
 				2A6456AB3747BD7BEA9658A190DF31D8 /* Frameworks */,
-				C80E5E08992DBD4C2EBE4C692A92A1CF /* Resources */,
+				C07051FE938D3F7A8B7D18A78700AC76 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -611,41 +608,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C80E5E08992DBD4C2EBE4C692A92A1CF /* Resources */ = {
+		C07051FE938D3F7A8B7D18A78700AC76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2246B79946033A7A97F55FA3960ED5 /* huanyuan@2x.png in Resources */,
-				BB889103D040B22B12F952A1E57B46EB /* huanyuan@3x.png in Resources */,
-				8D10C466A4F748948A07993F2262AB2F /* Ou_CutPics.bundle in Resources */,
-				FB8DE4BADC2F0ED28E2F0EF733F01353 /* Ratio_16_9@2x.png in Resources */,
-				8539EAA5D6243EE031EE9491A3AC8129 /* Ratio_16_9@3x.png in Resources */,
-				666722D184C2A2E37DCE1426B415312E /* Ratio_16_9_blue@2x.png in Resources */,
-				590035EEEA7F636E27E0292A330BBC12 /* Ratio_16_9_blue@3x.png in Resources */,
-				E9C903260C662012FA2B7471E9761B2E /* Ratio_1_1@2x.png in Resources */,
-				08926F8BD29F511FC9BC942F4EA11ABD /* Ratio_1_1@3x.png in Resources */,
-				E8C5B915255EBAD3BA94E7FB23121E1E /* Ratio_1_1_blue@2x.png in Resources */,
-				68AA91FDEF281CE9A75B7C50B210BC9F /* Ratio_1_1_blue@3x.png in Resources */,
-				AC7A91BADF137C847AEF946CE4D3801B /* Ratio_3_4@2x.png in Resources */,
-				AB07F40019F1487E7218DF37BA7D6DDE /* Ratio_3_4@3x.png in Resources */,
-				55766E14B0CB4645846D85B5F4EC8780 /* Ratio_3_4_blue@2x.png in Resources */,
-				3367438DE74484A7B872EFA0B314AC5F /* Ratio_3_4_blue@3x.png in Resources */,
-				50012016D02AE17DB8F314695224EB90 /* Ratio_4_3@2x.png in Resources */,
-				A107E6B396B848B7537F85BD9B20A901 /* Ratio_4_3@3x.png in Resources */,
-				EB8680E828A482A6A9ABFCCA54B72416 /* Ratio_4_3_blue@2x.png in Resources */,
-				19CF8CC5CA0B32A8DE6C51481F80E730 /* Ratio_4_3_blue@3x.png in Resources */,
-				BD1C82F91F00A63B308BCD7983344F72 /* Ratio_9_16@2x.png in Resources */,
-				4E0AE5216AAA63FB5BD2EFC6B935A2E5 /* Ratio_9_16@3x.png in Resources */,
-				87249A8993F906BB511BF7B7FB6C8D3D /* Ratio_9_16_blue@2x.png in Resources */,
-				809D16320653DF46630E0A36DAD98C31 /* Ratio_9_16_blue@3x.png in Resources */,
-				CE6A1AF474B421E482D900E843CA1116 /* RatioBarView.nib in Resources */,
-				68CD36286850E5E517919E6DB8AC7BF1 /* RatioCell.nib in Resources */,
-				330B62FCE9634E74925987FD7C1896B0 /* xuanzhuan@2x.png in Resources */,
-				E4FFB0A5FC61B9D03B6A5201F704CC3D /* xuanzhuan@3x.png in Resources */,
-				1D6D4DCD3D8E00FF90697C2139EAB585 /* ziyou@2x.png in Resources */,
-				34A2112A6FC18F52DA74C9654B011550 /* ziyou@3x.png in Resources */,
-				3320952DA5C025F2A4CF29F4165E2219 /* ziyou_blue@2x.png in Resources */,
-				D2E63A2977B6E69F3E806B7A413E211E /* ziyou_blue@3x.png in Resources */,
+				8D92FFD097BB01765C2061BCC817497B /* huanyuan@2x.png in Resources */,
+				673541F3C91091D2814B2891A2F87E0A /* huanyuan@3x.png in Resources */,
+				9FA82EAA62E94004179063389C8F1208 /* Ratio_16_9@2x.png in Resources */,
+				DCFED5C8AADD974114DD3CDB9B5DB2AE /* Ratio_16_9@3x.png in Resources */,
+				4EA080A655467DA13DA277BA96EFF65E /* Ratio_16_9_blue@2x.png in Resources */,
+				2034ABAF3B1B62B8A56C0EA215D0FE70 /* Ratio_16_9_blue@3x.png in Resources */,
+				B9630AFF30FA5CF62BB79C1845FF0D45 /* Ratio_1_1@2x.png in Resources */,
+				610E4A096E60298E3FDB5F1FEC021FEA /* Ratio_1_1@3x.png in Resources */,
+				7DA1D955D3CD3794F4C0362CE9D72F44 /* Ratio_1_1_blue@2x.png in Resources */,
+				EC0519BEF4F133D43F738EF93825AF08 /* Ratio_1_1_blue@3x.png in Resources */,
+				007335D231EA7AC6225B0CE2A80CE4BA /* Ratio_3_4@2x.png in Resources */,
+				1564C51E68052B5B965B632A2FA24CC4 /* Ratio_3_4@3x.png in Resources */,
+				AD97136C3E80D9E97447238CA57FDCDB /* Ratio_3_4_blue@2x.png in Resources */,
+				24F171743DFD1DABA6D7BF21F91C3822 /* Ratio_3_4_blue@3x.png in Resources */,
+				0697584BFED1D404A30688D2DE34F354 /* Ratio_4_3@2x.png in Resources */,
+				5934E9B8BC9C81597A8C8D6D75434DB4 /* Ratio_4_3@3x.png in Resources */,
+				47A980FEEADBF07F18DC4BDCB48783E0 /* Ratio_4_3_blue@2x.png in Resources */,
+				A000560366A16095E9075599E805C961 /* Ratio_4_3_blue@3x.png in Resources */,
+				8709E6C13F18975C4DEE5BA983EE488D /* Ratio_9_16@2x.png in Resources */,
+				19CFD443C5F340EE825D4AB754026EC5 /* Ratio_9_16@3x.png in Resources */,
+				94E9902F657732083E7C4186BD400A87 /* Ratio_9_16_blue@2x.png in Resources */,
+				84BD5D54577B8BFF07A04D397BA7A4DA /* Ratio_9_16_blue@3x.png in Resources */,
+				6BC4061221F81474A0056C0897B67373 /* RatioBarView.nib in Resources */,
+				6CD686A4BC63461B8054A6116CF51899 /* RatioCell.nib in Resources */,
+				66B8100FECF3496193A4BD3AF6E44323 /* xuanzhuan@2x.png in Resources */,
+				7A7E2B3F16CA6DF4D920F847EE10C888 /* xuanzhuan@3x.png in Resources */,
+				01587B25F5F7EFFB2083BCFC4470B23B /* ziyou@2x.png in Resources */,
+				AD399248F64D278286597C80B5B4C06A /* ziyou@3x.png in Resources */,
+				763A084D5755302195F1631FF2E4050A /* ziyou_blue@2x.png in Resources */,
+				E62655A7F78A582D416113BD0D95E252 /* ziyou_blue@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,7 +948,7 @@
 		};
 		92EE85D47243C50FD94A9871AEC2DB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */;
+			baseConfigurationReference = 59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -983,7 +979,7 @@
 		};
 		A5DF1C7FDF7ECDA039F5C9799742B580 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */;
+			baseConfigurationReference = 59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ou_CutPhoto";
@@ -1034,7 +1030,7 @@
 		};
 		EDB23FDAEA9F04E54EA0A0E8F384D9F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */;
+			baseConfigurationReference = 59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1066,7 +1062,7 @@
 		};
 		FF07313FBFB0592531C3C9673A68E483 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F872D6283A28916F94614B8B5CA9106B /* Ou_CutPhoto.xcconfig */;
+			baseConfigurationReference = 59E8B9F42A2C7CDB10F275FD356A9ECF /* Ou_CutPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Ou_CutPhoto";
