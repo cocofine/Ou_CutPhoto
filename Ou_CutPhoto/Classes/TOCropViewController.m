@@ -1038,20 +1038,14 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 120.0f;
 
     if (!_barView) {
         __weak typeof(self) weakSelf = self;
-//        NSBundle *bundle = [NSBundle bundleForClass:[RatioBarView class]];
-//        NSString *path = [bundle pathForResource:@"Ou_CutPics" ofType:@"bundle"];
-//        NSBundle *b = [NSBundle bundleWithPath:path];
-//        [UINib nibWithNibName:@"RatioCell" bundle:b]
+        NSBundle *bundle = [NSBundle bundleForClass:[RatioBarView class]];
+        NSString *path = [bundle pathForResource:@"Ou_CutPics" ofType:@"bundle"];
+        NSBundle *b = [NSBundle bundleWithPath:path];
         
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Ou_CutPics" ofType:@"bundle"];
-        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+//        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Ou_CutPics" ofType:@"bundle"];
+//        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
         
-        
-        NSString *name = [NSString stringWithFormat:@"huanyuan_blue@3x"];
-        NSString *p = [bundle pathForResource:name ofType:@"png"];
-        UIImage *img = [UIImage imageWithContentsOfFile:p];
-        
-//        _barView = [[b loadNibNamed:@"RatioBarView" owner:self options:nil] firstObject];;
+        _barView = [[b loadNibNamed:@"RatioBarView" owner:self options:nil] firstObject];;
         _barView.layer.zPosition = 1000;
         _barView.typeBlock = ^(NSInteger RatioType) {
             [weakSelf barRatioActionWithType:RatioType];
